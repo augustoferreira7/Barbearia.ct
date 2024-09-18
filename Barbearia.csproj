@@ -46,24 +46,56 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ScreenRegister.cs">
+    <Compile Include="controller\Connection.cs" />
+    <Compile Include="Model\ContaCliente.cs" />
+    <Compile Include="View\screenBarba.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ScreenRegister.Designer.cs">
+    <Compile Include="View\screenBarba.Designer.cs">
+      <DependentUpon>screenBarba.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ScreenCorte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ScreenCorte.Designer.cs">
+      <DependentUpon>ScreenCorte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ScreenEspeciais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ScreenEspeciais.Designer.cs">
+      <DependentUpon>ScreenEspeciais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ScreenPintura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ScreenPintura.Designer.cs">
+      <DependentUpon>ScreenPintura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ScreenRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ScreenRegister.Designer.cs">
       <DependentUpon>ScreenRegister.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ScreenPrincipal.cs">
+    <Compile Include="View\ScreenPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ScreenPrincipal.Designer.cs">
+    <Compile Include="View\ScreenPrincipal.Designer.cs">
       <DependentUpon>ScreenPrincipal.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ScreenPrincipal.resx">
+    <EmbeddedResource Include="View\screenBarba.resx">
+      <DependentUpon>screenBarba.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ScreenCorte.resx">
+      <DependentUpon>ScreenCorte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ScreenPrincipal.resx">
       <DependentUpon>ScreenPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ScreenRegister.resx">
+    <EmbeddedResource Include="View\ScreenRegister.resx">
       <DependentUpon>ScreenRegister.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -95,5 +127,12 @@
   <ItemGroup>
     <None Include="Resources\barba.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tinta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tinta ct.jpg" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -33,14 +33,13 @@ namespace Barbearia
             txb_UserCd.Text = string.Empty; // Limpa o campos do usuário
             txb_PassowordCd.Text = string.Empty; // Limpa o campo da senha
             txb_UserCd.Focus(); // Coloca o foco no campo de usuário
-            ScreenRegister principalScreen = new ScreenRegister();
+            MessageBox.Show("Cadastrado com sucesso");
+            ScreenPrincipal principalScreen = new ScreenPrincipal();
             this.Visible = false; // Esconder a tela de login
             principalScreen.ShowDialog(); // Abre a tela preincipal
             this.Visible = true; // Volta a mostrar a tela login
 
-            MessageBox.Show("Cadastrado com sucesso");
-            this.Close();
-            
+           
             
         }
 
