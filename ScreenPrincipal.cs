@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace Barbearia
 {
-    public partial class ScreenPintura : Form
+    public partial class ScreenPrincipal : Form
     {
-        public ScreenPintura()
+        public ScreenPrincipal()
         {
             InitializeComponent();
+        }
+
+        private void ScreenLogin_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
