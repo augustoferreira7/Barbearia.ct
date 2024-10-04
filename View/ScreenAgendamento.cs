@@ -30,9 +30,9 @@ namespace Barbearia
         {
             MessageBox.Show(
                 "Corte: " + CbbCabelo.Text +
-                "\nAdicional: " + CbbBarba+
-                "\nHorário: " + Ccbhorario+
-                "\nPagamento: " + cbbPagamneto);
+                "\nAdicional: " + CbbBarba.Text+
+                "\nHorário: " + Ccbhorario.Text+
+                "\nPagamento: " + cbbPagamneto.Text);
         }
 
         private void btnCabelo_Click(object sender, EventArgs e)
