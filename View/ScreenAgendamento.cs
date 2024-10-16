@@ -54,5 +54,10 @@ namespace Barbearia
 
             tela_barba1.ShowDialog();
         }
+
+        private void ScreenAgendamento_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

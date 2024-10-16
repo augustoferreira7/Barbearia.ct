@@ -52,10 +52,10 @@
             this.btnPerfil.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPerfil.ForeColor = System.Drawing.Color.White;
             this.btnPerfil.Image = ((System.Drawing.Image)(resources.GetObject("btnPerfil.Image")));
-            this.btnPerfil.Location = new System.Drawing.Point(24, 224);
+            this.btnPerfil.Location = new System.Drawing.Point(18, 122);
             this.btnPerfil.Margin = new System.Windows.Forms.Padding(0);
             this.btnPerfil.Name = "btnPerfil";
-            this.btnPerfil.Size = new System.Drawing.Size(92, 100);
+            this.btnPerfil.Size = new System.Drawing.Size(69, 81);
             this.btnPerfil.TabIndex = 3;
             this.btnPerfil.Text = "Perfil";
             this.btnPerfil.UseVisualStyleBackColor = false;
@@ -66,9 +66,10 @@
             this.btnCabelo.BackColor = System.Drawing.Color.Black;
             this.btnCabelo.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCabelo.ForeColor = System.Drawing.Color.White;
-            this.btnCabelo.Location = new System.Drawing.Point(24, 361);
+            this.btnCabelo.Location = new System.Drawing.Point(18, 293);
+            this.btnCabelo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCabelo.Name = "btnCabelo";
-            this.btnCabelo.Size = new System.Drawing.Size(89, 50);
+            this.btnCabelo.Size = new System.Drawing.Size(67, 41);
             this.btnCabelo.TabIndex = 4;
             this.btnCabelo.Text = "Cortes";
             this.btnCabelo.UseVisualStyleBackColor = false;
@@ -79,9 +80,10 @@
             this.btnBarba.BackColor = System.Drawing.Color.Black;
             this.btnBarba.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBarba.ForeColor = System.Drawing.Color.White;
-            this.btnBarba.Location = new System.Drawing.Point(24, 428);
+            this.btnBarba.Location = new System.Drawing.Point(18, 348);
+            this.btnBarba.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnBarba.Name = "btnBarba";
-            this.btnBarba.Size = new System.Drawing.Size(89, 50);
+            this.btnBarba.Size = new System.Drawing.Size(67, 41);
             this.btnBarba.TabIndex = 6;
             this.btnBarba.Text = "Barbas";
             this.btnBarba.UseVisualStyleBackColor = false;
@@ -100,9 +102,10 @@
             "Burst Fade",
             "Americano",
             "Mullet"});
-            this.CbbCabelo.Location = new System.Drawing.Point(255, 413);
+            this.CbbCabelo.Location = new System.Drawing.Point(218, 275);
+            this.CbbCabelo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CbbCabelo.Name = "CbbCabelo";
-            this.CbbCabelo.Size = new System.Drawing.Size(179, 33);
+            this.CbbCabelo.Size = new System.Drawing.Size(135, 28);
             this.CbbCabelo.TabIndex = 7;
             // 
             // lblDesc
@@ -112,9 +115,10 @@
             this.lblDesc.BackColor = System.Drawing.Color.Transparent;
             this.lblDesc.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDesc.ForeColor = System.Drawing.Color.Transparent;
-            this.lblDesc.Location = new System.Drawing.Point(482, 265);
+            this.lblDesc.Location = new System.Drawing.Point(329, 145);
+            this.lblDesc.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDesc.Name = "lblDesc";
-            this.lblDesc.Size = new System.Drawing.Size(646, 37);
+            this.lblDesc.Size = new System.Drawing.Size(541, 31);
             this.lblDesc.TabIndex = 11;
             this.lblDesc.Text = "Escolha a data em que deseja marcar um horário";
             // 
@@ -129,9 +133,10 @@
             "Pix",
             "Débito",
             "Crédito"});
-            this.cbbPagamneto.Location = new System.Drawing.Point(562, 597);
+            this.cbbPagamneto.Location = new System.Drawing.Point(450, 423);
+            this.cbbPagamneto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cbbPagamneto.Name = "cbbPagamneto";
-            this.cbbPagamneto.Size = new System.Drawing.Size(179, 33);
+            this.cbbPagamneto.Size = new System.Drawing.Size(135, 28);
             this.cbbPagamneto.TabIndex = 12;
             // 
             // CbbBarba
@@ -144,9 +149,10 @@
             "Barba Completa",
             "Limpeza",
             "Sobrancela"});
-            this.CbbBarba.Location = new System.Drawing.Point(253, 597);
+            this.CbbBarba.Location = new System.Drawing.Point(218, 423);
+            this.CbbBarba.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CbbBarba.Name = "CbbBarba";
-            this.CbbBarba.Size = new System.Drawing.Size(179, 33);
+            this.CbbBarba.Size = new System.Drawing.Size(135, 28);
             this.CbbBarba.TabIndex = 13;
             // 
             // label2
@@ -155,16 +161,18 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(44, 314);
+            this.label2.Location = new System.Drawing.Point(32, 203);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(55, 22);
+            this.label2.Size = new System.Drawing.Size(40, 19);
             this.label2.TabIndex = 15;
             this.label2.Text = "Perfil";
             // 
             // mtcCalendario
             // 
             this.mtcCalendario.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.mtcCalendario.Location = new System.Drawing.Point(1012, 356);
+            this.mtcCalendario.Location = new System.Drawing.Point(750, 249);
+            this.mtcCalendario.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
             this.mtcCalendario.Name = "mtcCalendario";
             this.mtcCalendario.TabIndex = 16;
             // 
@@ -184,9 +192,10 @@
             "16:00",
             "17:00",
             "18:00"});
-            this.Ccbhorario.Location = new System.Drawing.Point(562, 413);
+            this.Ccbhorario.Location = new System.Drawing.Point(451, 275);
+            this.Ccbhorario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Ccbhorario.Name = "Ccbhorario";
-            this.Ccbhorario.Size = new System.Drawing.Size(179, 33);
+            this.Ccbhorario.Size = new System.Drawing.Size(135, 28);
             this.Ccbhorario.TabIndex = 17;
             // 
             // lblECorte
@@ -196,9 +205,10 @@
             this.lblECorte.BackColor = System.Drawing.Color.Transparent;
             this.lblECorte.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblECorte.ForeColor = System.Drawing.Color.White;
-            this.lblECorte.Location = new System.Drawing.Point(249, 363);
+            this.lblECorte.Location = new System.Drawing.Point(213, 223);
+            this.lblECorte.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblECorte.Name = "lblECorte";
-            this.lblECorte.Size = new System.Drawing.Size(224, 33);
+            this.lblECorte.Size = new System.Drawing.Size(178, 25);
             this.lblECorte.TabIndex = 18;
             this.lblECorte.Text = "Escolha seu Corte:";
             // 
@@ -209,9 +219,10 @@
             this.lblpagamento.BackColor = System.Drawing.Color.Transparent;
             this.lblpagamento.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblpagamento.ForeColor = System.Drawing.Color.White;
-            this.lblpagamento.Location = new System.Drawing.Point(558, 547);
+            this.lblpagamento.Location = new System.Drawing.Point(446, 373);
+            this.lblpagamento.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblpagamento.Name = "lblpagamento";
-            this.lblpagamento.Size = new System.Drawing.Size(269, 33);
+            this.lblpagamento.Size = new System.Drawing.Size(213, 25);
             this.lblpagamento.TabIndex = 19;
             this.lblpagamento.Text = "Método de pagamento:";
             // 
@@ -222,9 +233,10 @@
             this.lblHorario.BackColor = System.Drawing.Color.Transparent;
             this.lblHorario.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHorario.ForeColor = System.Drawing.Color.White;
-            this.lblHorario.Location = new System.Drawing.Point(558, 363);
+            this.lblHorario.Location = new System.Drawing.Point(445, 223);
+            this.lblHorario.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblHorario.Name = "lblHorario";
-            this.lblHorario.Size = new System.Drawing.Size(251, 33);
+            this.lblHorario.Size = new System.Drawing.Size(199, 25);
             this.lblHorario.TabIndex = 20;
             this.lblHorario.Text = "Escolha um Horário :";
             // 
@@ -235,9 +247,10 @@
             this.lblescolha.BackColor = System.Drawing.Color.Transparent;
             this.lblescolha.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblescolha.ForeColor = System.Drawing.Color.White;
-            this.lblescolha.Location = new System.Drawing.Point(247, 547);
+            this.lblescolha.Location = new System.Drawing.Point(213, 373);
+            this.lblescolha.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblescolha.Name = "lblescolha";
-            this.lblescolha.Size = new System.Drawing.Size(255, 33);
+            this.lblescolha.Size = new System.Drawing.Size(205, 25);
             this.lblescolha.TabIndex = 21;
             this.lblescolha.Text = "Quer fazer algo mais?";
             // 
@@ -245,9 +258,10 @@
             // 
             this.BtnSalvarAgendamento.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.BtnSalvarAgendamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSalvarAgendamento.Location = new System.Drawing.Point(1105, 622);
+            this.BtnSalvarAgendamento.Location = new System.Drawing.Point(895, 462);
+            this.BtnSalvarAgendamento.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BtnSalvarAgendamento.Name = "BtnSalvarAgendamento";
-            this.BtnSalvarAgendamento.Size = new System.Drawing.Size(110, 37);
+            this.BtnSalvarAgendamento.Size = new System.Drawing.Size(82, 30);
             this.BtnSalvarAgendamento.TabIndex = 22;
             this.BtnSalvarAgendamento.Text = "Concluir";
             this.BtnSalvarAgendamento.UseVisualStyleBackColor = true;
@@ -255,10 +269,11 @@
             // 
             // ScreenAgendamento
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1317, 737);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1045, 552);
             this.Controls.Add(this.BtnSalvarAgendamento);
             this.Controls.Add(this.lblescolha);
             this.Controls.Add(this.lblHorario);
@@ -274,9 +289,11 @@
             this.Controls.Add(this.btnBarba);
             this.Controls.Add(this.btnCabelo);
             this.Controls.Add(this.btnPerfil);
+            this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "ScreenAgendamento";
             this.Text = "ScreenAgendamento";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.ScreenAgendamento_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

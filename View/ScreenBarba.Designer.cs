@@ -59,9 +59,10 @@
             this.btnMenuBarba.BackColor = System.Drawing.Color.Black;
             this.btnMenuBarba.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMenuBarba.ForeColor = System.Drawing.Color.White;
-            this.btnMenuBarba.Location = new System.Drawing.Point(29, 486);
+            this.btnMenuBarba.Location = new System.Drawing.Point(22, 395);
+            this.btnMenuBarba.Margin = new System.Windows.Forms.Padding(2);
             this.btnMenuBarba.Name = "btnMenuBarba";
-            this.btnMenuBarba.Size = new System.Drawing.Size(87, 40);
+            this.btnMenuBarba.Size = new System.Drawing.Size(65, 32);
             this.btnMenuBarba.TabIndex = 18;
             this.btnMenuBarba.Text = "Menu";
             this.btnMenuBarba.UseVisualStyleBackColor = false;
@@ -72,9 +73,10 @@
             this.btnCortesBarba.BackColor = System.Drawing.Color.Black;
             this.btnCortesBarba.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCortesBarba.ForeColor = System.Drawing.Color.White;
-            this.btnCortesBarba.Location = new System.Drawing.Point(29, 404);
+            this.btnCortesBarba.Location = new System.Drawing.Point(22, 328);
+            this.btnCortesBarba.Margin = new System.Windows.Forms.Padding(2);
             this.btnCortesBarba.Name = "btnCortesBarba";
-            this.btnCortesBarba.Size = new System.Drawing.Size(87, 40);
+            this.btnCortesBarba.Size = new System.Drawing.Size(65, 32);
             this.btnCortesBarba.TabIndex = 19;
             this.btnCortesBarba.Text = "Cortes";
             this.btnCortesBarba.UseVisualStyleBackColor = false;
@@ -86,10 +88,10 @@
             this.btnPerfil.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPerfil.ForeColor = System.Drawing.Color.White;
             this.btnPerfil.Image = ((System.Drawing.Image)(resources.GetObject("btnPerfil.Image")));
-            this.btnPerfil.Location = new System.Drawing.Point(29, 251);
+            this.btnPerfil.Location = new System.Drawing.Point(19, 147);
             this.btnPerfil.Margin = new System.Windows.Forms.Padding(0);
             this.btnPerfil.Name = "btnPerfil";
-            this.btnPerfil.Size = new System.Drawing.Size(90, 90);
+            this.btnPerfil.Size = new System.Drawing.Size(68, 73);
             this.btnPerfil.TabIndex = 20;
             this.btnPerfil.Text = "Perfil";
             this.btnPerfil.UseVisualStyleBackColor = false;
@@ -100,18 +102,20 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(46, 341);
+            this.label2.Location = new System.Drawing.Point(35, 230);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(55, 22);
+            this.label2.Size = new System.Drawing.Size(40, 19);
             this.label2.TabIndex = 21;
             this.label2.Text = "Perfil";
             // 
             // btnAmericano
             // 
             this.btnAmericano.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnAmericano.Location = new System.Drawing.Point(228, 733);
+            this.btnAmericano.Location = new System.Drawing.Point(168, 558);
+            this.btnAmericano.Margin = new System.Windows.Forms.Padding(2);
             this.btnAmericano.Name = "btnAmericano";
-            this.btnAmericano.Size = new System.Drawing.Size(75, 30);
+            this.btnAmericano.Size = new System.Drawing.Size(56, 24);
             this.btnAmericano.TabIndex = 76;
             this.btnAmericano.Text = "Agendar";
             this.btnAmericano.UseVisualStyleBackColor = true;
@@ -120,9 +124,10 @@
             // btnBurst
             // 
             this.btnBurst.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnBurst.Location = new System.Drawing.Point(1225, 538);
+            this.btnBurst.Location = new System.Drawing.Point(916, 400);
+            this.btnBurst.Margin = new System.Windows.Forms.Padding(2);
             this.btnBurst.Name = "btnBurst";
-            this.btnBurst.Size = new System.Drawing.Size(75, 27);
+            this.btnBurst.Size = new System.Drawing.Size(56, 22);
             this.btnBurst.TabIndex = 73;
             this.btnBurst.Text = "Agendar";
             this.btnBurst.UseVisualStyleBackColor = true;
@@ -131,9 +136,10 @@
             // btnLow
             // 
             this.btnLow.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnLow.Location = new System.Drawing.Point(711, 538);
+            this.btnLow.Location = new System.Drawing.Point(530, 400);
+            this.btnLow.Margin = new System.Windows.Forms.Padding(2);
             this.btnLow.Name = "btnLow";
-            this.btnLow.Size = new System.Drawing.Size(75, 27);
+            this.btnLow.Size = new System.Drawing.Size(56, 22);
             this.btnLow.TabIndex = 72;
             this.btnLow.Text = "Agendar";
             this.btnLow.UseVisualStyleBackColor = true;
@@ -142,9 +148,10 @@
             // btnSamurai
             // 
             this.btnSamurai.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnSamurai.Location = new System.Drawing.Point(1224, 733);
+            this.btnSamurai.Location = new System.Drawing.Point(916, 558);
+            this.btnSamurai.Margin = new System.Windows.Forms.Padding(2);
             this.btnSamurai.Name = "btnSamurai";
-            this.btnSamurai.Size = new System.Drawing.Size(75, 30);
+            this.btnSamurai.Size = new System.Drawing.Size(56, 24);
             this.btnSamurai.TabIndex = 71;
             this.btnSamurai.Text = "Agendar";
             this.btnSamurai.UseVisualStyleBackColor = true;
@@ -153,9 +160,10 @@
             // btnMullet
             // 
             this.btnMullet.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnMullet.Location = new System.Drawing.Point(710, 733);
+            this.btnMullet.Location = new System.Drawing.Point(532, 558);
+            this.btnMullet.Margin = new System.Windows.Forms.Padding(2);
             this.btnMullet.Name = "btnMullet";
-            this.btnMullet.Size = new System.Drawing.Size(75, 30);
+            this.btnMullet.Size = new System.Drawing.Size(56, 24);
             this.btnMullet.TabIndex = 70;
             this.btnMullet.Text = "Agendar";
             this.btnMullet.UseVisualStyleBackColor = true;
@@ -164,9 +172,10 @@
             // btnMid
             // 
             this.btnMid.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnMid.Location = new System.Drawing.Point(228, 538);
+            this.btnMid.Location = new System.Drawing.Point(168, 400);
+            this.btnMid.Margin = new System.Windows.Forms.Padding(2);
             this.btnMid.Name = "btnMid";
-            this.btnMid.Size = new System.Drawing.Size(75, 27);
+            this.btnMid.Size = new System.Drawing.Size(56, 22);
             this.btnMid.TabIndex = 69;
             this.btnMid.Text = "Agendar";
             this.btnMid.UseVisualStyleBackColor = true;
@@ -179,9 +188,10 @@
             this.lblDiamante.BackColor = System.Drawing.Color.Transparent;
             this.lblDiamante.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDiamante.ForeColor = System.Drawing.Color.White;
-            this.lblDiamante.Location = new System.Drawing.Point(221, 603);
+            this.lblDiamante.Location = new System.Drawing.Point(163, 453);
+            this.lblDiamante.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDiamante.Name = "lblDiamante";
-            this.lblDiamante.Size = new System.Drawing.Size(129, 34);
+            this.lblDiamante.Size = new System.Drawing.Size(105, 27);
             this.lblDiamante.TabIndex = 67;
             this.lblDiamante.Text = "Diamante";
             // 
@@ -192,9 +202,10 @@
             this.lblTriangular.BackColor = System.Drawing.Color.Transparent;
             this.lblTriangular.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTriangular.ForeColor = System.Drawing.Color.White;
-            this.lblTriangular.Location = new System.Drawing.Point(704, 603);
+            this.lblTriangular.Location = new System.Drawing.Point(525, 453);
+            this.lblTriangular.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTriangular.Name = "lblTriangular";
-            this.lblTriangular.Size = new System.Drawing.Size(137, 34);
+            this.lblTriangular.Size = new System.Drawing.Size(110, 27);
             this.lblTriangular.TabIndex = 66;
             this.lblTriangular.Text = "Trinagular";
             // 
@@ -205,9 +216,10 @@
             this.lblTrianguloInverso.BackColor = System.Drawing.Color.Transparent;
             this.lblTrianguloInverso.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTrianguloInverso.ForeColor = System.Drawing.Color.White;
-            this.lblTrianguloInverso.Location = new System.Drawing.Point(1218, 603);
+            this.lblTrianguloInverso.Location = new System.Drawing.Point(909, 453);
+            this.lblTrianguloInverso.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTrianguloInverso.Name = "lblTrianguloInverso";
-            this.lblTrianguloInverso.Size = new System.Drawing.Size(211, 34);
+            this.lblTrianguloInverso.Size = new System.Drawing.Size(170, 27);
             this.lblTrianguloInverso.TabIndex = 65;
             this.lblTrianguloInverso.Text = "Tringulo Inverso";
             // 
@@ -218,9 +230,10 @@
             this.lblDTriangular.BackColor = System.Drawing.Color.Transparent;
             this.lblDTriangular.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDTriangular.ForeColor = System.Drawing.Color.White;
-            this.lblDTriangular.Location = new System.Drawing.Point(706, 652);
+            this.lblDTriangular.Location = new System.Drawing.Point(526, 492);
+            this.lblDTriangular.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDTriangular.Name = "lblDTriangular";
-            this.lblDTriangular.Size = new System.Drawing.Size(241, 78);
+            this.lblDTriangular.Size = new System.Drawing.Size(192, 63);
             this.lblDTriangular.TabIndex = 64;
             this.lblDTriangular.Text = "Valor: R$45,00\r\nUma moda um pouco\r\nmais antiga, mas incrível";
             // 
@@ -231,9 +244,10 @@
             this.lblDTrinaguloInv.BackColor = System.Drawing.Color.Transparent;
             this.lblDTrinaguloInv.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDTrinaguloInv.ForeColor = System.Drawing.Color.White;
-            this.lblDTrinaguloInv.Location = new System.Drawing.Point(1220, 652);
+            this.lblDTrinaguloInv.Location = new System.Drawing.Point(913, 492);
+            this.lblDTrinaguloInv.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDTrinaguloInv.Name = "lblDTrinaguloInv";
-            this.lblDTrinaguloInv.Size = new System.Drawing.Size(225, 78);
+            this.lblDTrinaguloInv.Size = new System.Drawing.Size(184, 63);
             this.lblDTrinaguloInv.TabIndex = 63;
             this.lblDTrinaguloInv.Text = "Valor: R$45,00\r\nTestar cortes diferentes\r\né sempre importante!";
             // 
@@ -244,9 +258,10 @@
             this.lblDDiaman.BackColor = System.Drawing.Color.Transparent;
             this.lblDDiaman.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDDiaman.ForeColor = System.Drawing.Color.White;
-            this.lblDDiaman.Location = new System.Drawing.Point(223, 652);
+            this.lblDDiaman.Location = new System.Drawing.Point(165, 492);
+            this.lblDDiaman.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDDiaman.Name = "lblDDiaman";
-            this.lblDDiaman.Size = new System.Drawing.Size(236, 78);
+            this.lblDDiaman.Size = new System.Drawing.Size(193, 63);
             this.lblDDiaman.TabIndex = 61;
             this.lblDDiaman.Text = "Valor: R$40,00\r\nUm corte respeitado por\r\nmuitos, e prático";
             // 
@@ -257,9 +272,10 @@
             this.lblDRedondo.BackColor = System.Drawing.Color.Transparent;
             this.lblDRedondo.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDRedondo.ForeColor = System.Drawing.Color.White;
-            this.lblDRedondo.Location = new System.Drawing.Point(1220, 436);
+            this.lblDRedondo.Location = new System.Drawing.Point(912, 317);
+            this.lblDRedondo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDRedondo.Name = "lblDRedondo";
-            this.lblDRedondo.Size = new System.Drawing.Size(309, 99);
+            this.lblDRedondo.Size = new System.Drawing.Size(248, 75);
             this.lblDRedondo.TabIndex = 59;
             this.lblDRedondo.Text = "Valor: R$40,00\r\nEstá com o cabelo grande?\r\nEsse é o corte certo ";
             // 
@@ -270,9 +286,10 @@
             this.lblRedondo.BackColor = System.Drawing.Color.Transparent;
             this.lblRedondo.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRedondo.ForeColor = System.Drawing.Color.White;
-            this.lblRedondo.Location = new System.Drawing.Point(1218, 386);
+            this.lblRedondo.Location = new System.Drawing.Point(911, 277);
+            this.lblRedondo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblRedondo.Name = "lblRedondo";
-            this.lblRedondo.Size = new System.Drawing.Size(123, 34);
+            this.lblRedondo.Size = new System.Drawing.Size(99, 27);
             this.lblRedondo.TabIndex = 57;
             this.lblRedondo.Text = "Redondo";
             // 
@@ -283,9 +300,10 @@
             this.lblDQuadra.BackColor = System.Drawing.Color.Transparent;
             this.lblDQuadra.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDQuadra.ForeColor = System.Drawing.Color.White;
-            this.lblDQuadra.Location = new System.Drawing.Point(706, 436);
+            this.lblDQuadra.Location = new System.Drawing.Point(527, 317);
+            this.lblDQuadra.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDQuadra.Name = "lblDQuadra";
-            this.lblDQuadra.Size = new System.Drawing.Size(300, 99);
+            this.lblDQuadra.Size = new System.Drawing.Size(242, 75);
             this.lblDQuadra.TabIndex = 56;
             this.lblDQuadra.Text = "Valor: R$45,00\r\nCorte em alta. Ainda mais\r\nbonito testurizado";
             // 
@@ -296,9 +314,10 @@
             this.lblQuadrado.BackColor = System.Drawing.Color.Transparent;
             this.lblQuadrado.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQuadrado.ForeColor = System.Drawing.Color.White;
-            this.lblQuadrado.Location = new System.Drawing.Point(704, 386);
+            this.lblQuadrado.Location = new System.Drawing.Point(525, 277);
+            this.lblQuadrado.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblQuadrado.Name = "lblQuadrado";
-            this.lblQuadrado.Size = new System.Drawing.Size(133, 34);
+            this.lblQuadrado.Size = new System.Drawing.Size(107, 27);
             this.lblQuadrado.TabIndex = 55;
             this.lblQuadrado.Text = "Quadrado";
             // 
@@ -309,9 +328,10 @@
             this.lblDRetan.BackColor = System.Drawing.Color.Transparent;
             this.lblDRetan.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDRetan.ForeColor = System.Drawing.Color.White;
-            this.lblDRetan.Location = new System.Drawing.Point(223, 436);
+            this.lblDRetan.Location = new System.Drawing.Point(164, 317);
+            this.lblDRetan.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDRetan.Name = "lblDRetan";
-            this.lblDRetan.Size = new System.Drawing.Size(292, 99);
+            this.lblDRetan.Size = new System.Drawing.Size(234, 75);
             this.lblDRetan.TabIndex = 54;
             this.lblDRetan.Text = "Valor: R$45,00\r\nAtualmente está na moda\r\ne é ótimo para jovens";
             // 
@@ -322,9 +342,10 @@
             this.lblRetangular.BackColor = System.Drawing.Color.Transparent;
             this.lblRetangular.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRetangular.ForeColor = System.Drawing.Color.White;
-            this.lblRetangular.Location = new System.Drawing.Point(221, 386);
+            this.lblRetangular.Location = new System.Drawing.Point(163, 277);
+            this.lblRetangular.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblRetangular.Name = "lblRetangular";
-            this.lblRetangular.Size = new System.Drawing.Size(143, 34);
+            this.lblRetangular.Size = new System.Drawing.Size(117, 27);
             this.lblRetangular.TabIndex = 53;
             this.lblRetangular.Text = "Retangular";
             // 
@@ -335,18 +356,20 @@
             this.lblDescriçãoCorte.BackColor = System.Drawing.Color.Transparent;
             this.lblDescriçãoCorte.Font = new System.Drawing.Font("Times New Roman", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDescriçãoCorte.ForeColor = System.Drawing.Color.White;
-            this.lblDescriçãoCorte.Location = new System.Drawing.Point(701, 264);
+            this.lblDescriçãoCorte.Location = new System.Drawing.Point(523, 180);
+            this.lblDescriçãoCorte.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDescriçãoCorte.Name = "lblDescriçãoCorte";
-            this.lblDescriçãoCorte.Size = new System.Drawing.Size(197, 51);
+            this.lblDescriçãoCorte.Size = new System.Drawing.Size(156, 40);
             this.lblDescriçãoCorte.TabIndex = 52;
             this.lblDescriçãoCorte.Text = "Descrição";
             // 
             // ScreenBarba
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1529, 800);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1147, 650);
             this.Controls.Add(this.btnAmericano);
             this.Controls.Add(this.btnBurst);
             this.Controls.Add(this.btnLow);
@@ -370,9 +393,10 @@
             this.Controls.Add(this.btnPerfil);
             this.Controls.Add(this.btnCortesBarba);
             this.Controls.Add(this.btnMenuBarba);
+            this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ScreenBarba";
             this.Text = "ScreenBarba";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -66,10 +66,10 @@
             this.btnPerfil.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPerfil.ForeColor = System.Drawing.Color.White;
             this.btnPerfil.Image = ((System.Drawing.Image)(resources.GetObject("btnPerfil.Image")));
-            this.btnPerfil.Location = new System.Drawing.Point(9, 213);
+            this.btnPerfil.Location = new System.Drawing.Point(17, 140);
             this.btnPerfil.Margin = new System.Windows.Forms.Padding(0);
             this.btnPerfil.Name = "btnPerfil";
-            this.btnPerfil.Size = new System.Drawing.Size(90, 90);
+            this.btnPerfil.Size = new System.Drawing.Size(68, 73);
             this.btnPerfil.TabIndex = 4;
             this.btnPerfil.Text = "Perfil";
             this.btnPerfil.UseVisualStyleBackColor = false;
@@ -81,9 +81,10 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(22, 303);
+            this.label2.Location = new System.Drawing.Point(32, 213);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(55, 22);
+            this.label2.Size = new System.Drawing.Size(40, 19);
             this.label2.TabIndex = 16;
             this.label2.Text = "Perfil";
             // 
@@ -92,9 +93,10 @@
             this.btnBarbaCorte.BackColor = System.Drawing.Color.Black;
             this.btnBarbaCorte.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBarbaCorte.ForeColor = System.Drawing.Color.White;
-            this.btnBarbaCorte.Location = new System.Drawing.Point(9, 464);
+            this.btnBarbaCorte.Location = new System.Drawing.Point(17, 355);
+            this.btnBarbaCorte.Margin = new System.Windows.Forms.Padding(2);
             this.btnBarbaCorte.Name = "btnBarbaCorte";
-            this.btnBarbaCorte.Size = new System.Drawing.Size(104, 54);
+            this.btnBarbaCorte.Size = new System.Drawing.Size(78, 44);
             this.btnBarbaCorte.TabIndex = 17;
             this.btnBarbaCorte.Text = "Barbas";
             this.btnBarbaCorte.UseVisualStyleBackColor = false;
@@ -105,9 +107,10 @@
             this.btnMenu.BackColor = System.Drawing.Color.Black;
             this.btnMenu.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMenu.ForeColor = System.Drawing.Color.White;
-            this.btnMenu.Location = new System.Drawing.Point(9, 365);
+            this.btnMenu.Location = new System.Drawing.Point(17, 280);
+            this.btnMenu.Margin = new System.Windows.Forms.Padding(2);
             this.btnMenu.Name = "btnMenu";
-            this.btnMenu.Size = new System.Drawing.Size(104, 53);
+            this.btnMenu.Size = new System.Drawing.Size(78, 43);
             this.btnMenu.TabIndex = 18;
             this.btnMenu.Text = "Menu";
             this.btnMenu.UseVisualStyleBackColor = false;
@@ -120,9 +123,10 @@
             this.lblDescriçãoCorte.BackColor = System.Drawing.Color.Transparent;
             this.lblDescriçãoCorte.Font = new System.Drawing.Font("Times New Roman", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDescriçãoCorte.ForeColor = System.Drawing.Color.White;
-            this.lblDescriçãoCorte.Location = new System.Drawing.Point(730, 281);
+            this.lblDescriçãoCorte.Location = new System.Drawing.Point(534, 151);
+            this.lblDescriçãoCorte.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDescriçãoCorte.Name = "lblDescriçãoCorte";
-            this.lblDescriçãoCorte.Size = new System.Drawing.Size(197, 51);
+            this.lblDescriçãoCorte.Size = new System.Drawing.Size(156, 40);
             this.lblDescriçãoCorte.TabIndex = 27;
             this.lblDescriçãoCorte.Text = "Descrição";
             this.lblDescriçãoCorte.Click += new System.EventHandler(this.lblDescriçãoCorte_Click);
@@ -132,11 +136,12 @@
             this.lblMid.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblMid.AutoSize = true;
             this.lblMid.BackColor = System.Drawing.Color.Transparent;
-            this.lblMid.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMid.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMid.ForeColor = System.Drawing.Color.White;
-            this.lblMid.Location = new System.Drawing.Point(226, 399);
+            this.lblMid.Location = new System.Drawing.Point(170, 239);
+            this.lblMid.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMid.Name = "lblMid";
-            this.lblMid.Size = new System.Drawing.Size(148, 39);
+            this.lblMid.Size = new System.Drawing.Size(104, 27);
             this.lblMid.TabIndex = 28;
             this.lblMid.Text = "Mid Fade";
             this.lblMid.Click += new System.EventHandler(this.lblMid_Click);
@@ -146,11 +151,12 @@
             this.lblDeMid.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblDeMid.AutoSize = true;
             this.lblDeMid.BackColor = System.Drawing.Color.Transparent;
-            this.lblDeMid.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDeMid.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDeMid.ForeColor = System.Drawing.Color.White;
-            this.lblDeMid.Location = new System.Drawing.Point(228, 449);
+            this.lblDeMid.Location = new System.Drawing.Point(171, 280);
+            this.lblDeMid.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDeMid.Name = "lblDeMid";
-            this.lblDeMid.Size = new System.Drawing.Size(292, 99);
+            this.lblDeMid.Size = new System.Drawing.Size(218, 69);
             this.lblDeMid.TabIndex = 29;
             this.lblDeMid.Text = "Valor: R$45,00\r\nAtualmente está na moda\r\ne é ótimo para jovens";
             this.lblDeMid.Click += new System.EventHandler(this.lblDeMid_Click);
@@ -162,9 +168,10 @@
             this.lblLow.BackColor = System.Drawing.Color.Transparent;
             this.lblLow.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLow.ForeColor = System.Drawing.Color.White;
-            this.lblLow.Location = new System.Drawing.Point(595, 399);
+            this.lblLow.Location = new System.Drawing.Point(402, 239);
+            this.lblLow.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblLow.Name = "lblLow";
-            this.lblLow.Size = new System.Drawing.Size(143, 39);
+            this.lblLow.Size = new System.Drawing.Size(115, 31);
             this.lblLow.TabIndex = 30;
             this.lblLow.Text = "low Fade";
             this.lblLow.Click += new System.EventHandler(this.lblLow_Click);
@@ -174,11 +181,12 @@
             this.lblDLow.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblDLow.AutoSize = true;
             this.lblDLow.BackColor = System.Drawing.Color.Transparent;
-            this.lblDLow.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDLow.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDLow.ForeColor = System.Drawing.Color.White;
-            this.lblDLow.Location = new System.Drawing.Point(597, 449);
+            this.lblDLow.Location = new System.Drawing.Point(404, 280);
+            this.lblDLow.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDLow.Name = "lblDLow";
-            this.lblDLow.Size = new System.Drawing.Size(300, 99);
+            this.lblDLow.Size = new System.Drawing.Size(224, 69);
             this.lblDLow.TabIndex = 31;
             this.lblDLow.Text = "Valor: R$45,00\r\nCorte em alta. Ainda mais\r\nbonito testurizado";
             this.lblDLow.Click += new System.EventHandler(this.lblDLow_Click);
@@ -190,9 +198,10 @@
             this.lblBurst.BackColor = System.Drawing.Color.Transparent;
             this.lblBurst.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBurst.ForeColor = System.Drawing.Color.White;
-            this.lblBurst.Location = new System.Drawing.Point(925, 399);
+            this.lblBurst.Location = new System.Drawing.Point(650, 239);
+            this.lblBurst.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblBurst.Name = "lblBurst";
-            this.lblBurst.Size = new System.Drawing.Size(164, 39);
+            this.lblBurst.Size = new System.Drawing.Size(133, 31);
             this.lblBurst.TabIndex = 32;
             this.lblBurst.Text = "Burst Fade";
             this.lblBurst.Click += new System.EventHandler(this.lblBurst_Click);
@@ -204,9 +213,10 @@
             this.lblHiigh.BackColor = System.Drawing.Color.Transparent;
             this.lblHiigh.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHiigh.ForeColor = System.Drawing.Color.White;
-            this.lblHiigh.Location = new System.Drawing.Point(1298, 390);
+            this.lblHiigh.Location = new System.Drawing.Point(930, 232);
+            this.lblHiigh.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblHiigh.Name = "lblHiigh";
-            this.lblHiigh.Size = new System.Drawing.Size(159, 39);
+            this.lblHiigh.Size = new System.Drawing.Size(126, 31);
             this.lblHiigh.TabIndex = 33;
             this.lblHiigh.Text = "High Fade";
             this.lblHiigh.Click += new System.EventHandler(this.lblHiigh_Click);
@@ -216,11 +226,12 @@
             this.lblDBurst.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblDBurst.AutoSize = true;
             this.lblDBurst.BackColor = System.Drawing.Color.Transparent;
-            this.lblDBurst.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDBurst.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDBurst.ForeColor = System.Drawing.Color.White;
-            this.lblDBurst.Location = new System.Drawing.Point(927, 449);
+            this.lblDBurst.Location = new System.Drawing.Point(651, 280);
+            this.lblDBurst.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDBurst.Name = "lblDBurst";
-            this.lblDBurst.Size = new System.Drawing.Size(309, 99);
+            this.lblDBurst.Size = new System.Drawing.Size(232, 69);
             this.lblDBurst.TabIndex = 34;
             this.lblDBurst.Text = "Valor: R$40,00\r\nEstá com o cabelo grande?\r\nEsse é o corte certo ";
             this.lblDBurst.Click += new System.EventHandler(this.lblDBurst_Click);
@@ -230,11 +241,12 @@
             this.lblDHigh.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblDHigh.AutoSize = true;
             this.lblDHigh.BackColor = System.Drawing.Color.Transparent;
-            this.lblDHigh.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDHigh.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDHigh.ForeColor = System.Drawing.Color.White;
-            this.lblDHigh.Location = new System.Drawing.Point(1300, 440);
+            this.lblDHigh.Location = new System.Drawing.Point(931, 273);
+            this.lblDHigh.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDHigh.Name = "lblDHigh";
-            this.lblDHigh.Size = new System.Drawing.Size(303, 99);
+            this.lblDHigh.Size = new System.Drawing.Size(229, 69);
             this.lblDHigh.TabIndex = 35;
             this.lblDHigh.Text = "Valor: R$40,00\r\nUm cabelo mais curtinho?\r\nSugiro esse corte.";
             this.lblDHigh.Click += new System.EventHandler(this.lblDHigh_Click);
@@ -246,9 +258,10 @@
             this.lblDAmericano.BackColor = System.Drawing.Color.Transparent;
             this.lblDAmericano.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDAmericano.ForeColor = System.Drawing.Color.White;
-            this.lblDAmericano.Location = new System.Drawing.Point(228, 665);
+            this.lblDAmericano.Location = new System.Drawing.Point(171, 455);
+            this.lblDAmericano.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDAmericano.Name = "lblDAmericano";
-            this.lblDAmericano.Size = new System.Drawing.Size(281, 99);
+            this.lblDAmericano.Size = new System.Drawing.Size(225, 75);
             this.lblDAmericano.TabIndex = 36;
             this.lblDAmericano.Text = "Valor: R$40,00\r\nUm corte respeitado por\r\nmuitos, e prático";
             this.lblDAmericano.Click += new System.EventHandler(this.lblDAmericano_Click);
@@ -260,9 +273,10 @@
             this.LblDLowTaper.BackColor = System.Drawing.Color.Transparent;
             this.LblDLowTaper.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblDLowTaper.ForeColor = System.Drawing.Color.White;
-            this.LblDLowTaper.Location = new System.Drawing.Point(1300, 656);
+            this.LblDLowTaper.Location = new System.Drawing.Point(931, 448);
+            this.LblDLowTaper.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LblDLowTaper.Name = "LblDLowTaper";
-            this.LblDLowTaper.Size = new System.Drawing.Size(292, 99);
+            this.LblDLowTaper.Size = new System.Drawing.Size(236, 75);
             this.LblDLowTaper.TabIndex = 37;
             this.LblDLowTaper.Text = "Valor: R$40,00\r\nQuer algo social? Essa é \r\na escolha perfeita";
             this.LblDLowTaper.Click += new System.EventHandler(this.LblDLowTaper_Click);
@@ -274,9 +288,10 @@
             this.lblDSamurai.BackColor = System.Drawing.Color.Transparent;
             this.lblDSamurai.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDSamurai.ForeColor = System.Drawing.Color.White;
-            this.lblDSamurai.Location = new System.Drawing.Point(927, 665);
+            this.lblDSamurai.Location = new System.Drawing.Point(651, 455);
+            this.lblDSamurai.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDSamurai.Name = "lblDSamurai";
-            this.lblDSamurai.Size = new System.Drawing.Size(270, 99);
+            this.lblDSamurai.Size = new System.Drawing.Size(217, 75);
             this.lblDSamurai.TabIndex = 38;
             this.lblDSamurai.Text = "Valor: R$45,00\r\nTestar cortes diferentes\r\né sempre importante!";
             this.lblDSamurai.Click += new System.EventHandler(this.lblDSamurai_Click);
@@ -288,9 +303,10 @@
             this.lblDMullet.BackColor = System.Drawing.Color.Transparent;
             this.lblDMullet.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDMullet.ForeColor = System.Drawing.Color.White;
-            this.lblDMullet.Location = new System.Drawing.Point(597, 665);
+            this.lblDMullet.Location = new System.Drawing.Point(404, 455);
+            this.lblDMullet.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDMullet.Name = "lblDMullet";
-            this.lblDMullet.Size = new System.Drawing.Size(287, 99);
+            this.lblDMullet.Size = new System.Drawing.Size(229, 75);
             this.lblDMullet.TabIndex = 39;
             this.lblDMullet.Text = "Valor: R$45,00\r\nUma moda um pouco\r\nmais antiga, mas incrível";
             this.lblDMullet.Click += new System.EventHandler(this.lblDMullet_Click);
@@ -302,9 +318,10 @@
             this.lblSamurai.BackColor = System.Drawing.Color.Transparent;
             this.lblSamurai.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSamurai.ForeColor = System.Drawing.Color.White;
-            this.lblSamurai.Location = new System.Drawing.Point(925, 616);
+            this.lblSamurai.Location = new System.Drawing.Point(650, 415);
+            this.lblSamurai.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSamurai.Name = "lblSamurai";
-            this.lblSamurai.Size = new System.Drawing.Size(129, 39);
+            this.lblSamurai.Size = new System.Drawing.Size(103, 31);
             this.lblSamurai.TabIndex = 40;
             this.lblSamurai.Text = "Samurai";
             this.lblSamurai.Click += new System.EventHandler(this.lblSamurai_Click);
@@ -316,9 +333,10 @@
             this.lblMullet.BackColor = System.Drawing.Color.Transparent;
             this.lblMullet.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMullet.ForeColor = System.Drawing.Color.White;
-            this.lblMullet.Location = new System.Drawing.Point(595, 616);
+            this.lblMullet.Location = new System.Drawing.Point(402, 415);
+            this.lblMullet.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMullet.Name = "lblMullet";
-            this.lblMullet.Size = new System.Drawing.Size(106, 39);
+            this.lblMullet.Size = new System.Drawing.Size(88, 31);
             this.lblMullet.TabIndex = 41;
             this.lblMullet.Text = "Mullet";
             this.lblMullet.Click += new System.EventHandler(this.lblMullet_Click);
@@ -330,9 +348,10 @@
             this.lblAmericano.BackColor = System.Drawing.Color.Transparent;
             this.lblAmericano.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAmericano.ForeColor = System.Drawing.Color.White;
-            this.lblAmericano.Location = new System.Drawing.Point(226, 616);
+            this.lblAmericano.Location = new System.Drawing.Point(170, 415);
+            this.lblAmericano.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblAmericano.Name = "lblAmericano";
-            this.lblAmericano.Size = new System.Drawing.Size(165, 39);
+            this.lblAmericano.Size = new System.Drawing.Size(133, 31);
             this.lblAmericano.TabIndex = 42;
             this.lblAmericano.Text = "Americano";
             this.lblAmericano.Click += new System.EventHandler(this.lblAmericano_Click);
@@ -344,9 +363,10 @@
             this.lblLowTaper.BackColor = System.Drawing.Color.Transparent;
             this.lblLowTaper.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLowTaper.ForeColor = System.Drawing.Color.White;
-            this.lblLowTaper.Location = new System.Drawing.Point(1298, 607);
+            this.lblLowTaper.Location = new System.Drawing.Point(930, 408);
+            this.lblLowTaper.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblLowTaper.Name = "lblLowTaper";
-            this.lblLowTaper.Size = new System.Drawing.Size(165, 39);
+            this.lblLowTaper.Size = new System.Drawing.Size(131, 31);
             this.lblLowTaper.TabIndex = 43;
             this.lblLowTaper.Text = "Low Taper";
             this.lblLowTaper.Click += new System.EventHandler(this.lblLowTaper_Click);
@@ -354,9 +374,10 @@
             // btnMid
             // 
             this.btnMid.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnMid.Location = new System.Drawing.Point(232, 551);
+            this.btnMid.Location = new System.Drawing.Point(174, 363);
+            this.btnMid.Margin = new System.Windows.Forms.Padding(2);
             this.btnMid.Name = "btnMid";
-            this.btnMid.Size = new System.Drawing.Size(75, 32);
+            this.btnMid.Size = new System.Drawing.Size(56, 26);
             this.btnMid.TabIndex = 44;
             this.btnMid.Text = "Agendar";
             this.btnMid.UseVisualStyleBackColor = true;
@@ -365,9 +386,10 @@
             // btnMullet
             // 
             this.btnMullet.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnMullet.Location = new System.Drawing.Point(603, 767);
+            this.btnMullet.Location = new System.Drawing.Point(408, 538);
+            this.btnMullet.Margin = new System.Windows.Forms.Padding(2);
             this.btnMullet.Name = "btnMullet";
-            this.btnMullet.Size = new System.Drawing.Size(75, 34);
+            this.btnMullet.Size = new System.Drawing.Size(56, 28);
             this.btnMullet.TabIndex = 45;
             this.btnMullet.Text = "Agendar";
             this.btnMullet.UseVisualStyleBackColor = true;
@@ -376,9 +398,10 @@
             // btnSamurai
             // 
             this.btnSamurai.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnSamurai.Location = new System.Drawing.Point(933, 767);
+            this.btnSamurai.Location = new System.Drawing.Point(656, 538);
+            this.btnSamurai.Margin = new System.Windows.Forms.Padding(2);
             this.btnSamurai.Name = "btnSamurai";
-            this.btnSamurai.Size = new System.Drawing.Size(75, 34);
+            this.btnSamurai.Size = new System.Drawing.Size(56, 28);
             this.btnSamurai.TabIndex = 46;
             this.btnSamurai.Text = "Agendar";
             this.btnSamurai.UseVisualStyleBackColor = true;
@@ -387,9 +410,10 @@
             // btnLow
             // 
             this.btnLow.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnLow.Location = new System.Drawing.Point(603, 551);
+            this.btnLow.Location = new System.Drawing.Point(408, 363);
+            this.btnLow.Margin = new System.Windows.Forms.Padding(2);
             this.btnLow.Name = "btnLow";
-            this.btnLow.Size = new System.Drawing.Size(84, 34);
+            this.btnLow.Size = new System.Drawing.Size(63, 28);
             this.btnLow.TabIndex = 47;
             this.btnLow.Text = "Agendar";
             this.btnLow.UseVisualStyleBackColor = true;
@@ -398,9 +422,10 @@
             // btnBurst
             // 
             this.btnBurst.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnBurst.Location = new System.Drawing.Point(933, 551);
+            this.btnBurst.Location = new System.Drawing.Point(656, 363);
+            this.btnBurst.Margin = new System.Windows.Forms.Padding(2);
             this.btnBurst.Name = "btnBurst";
-            this.btnBurst.Size = new System.Drawing.Size(75, 34);
+            this.btnBurst.Size = new System.Drawing.Size(56, 28);
             this.btnBurst.TabIndex = 48;
             this.btnBurst.Text = "Agendar";
             this.btnBurst.UseVisualStyleBackColor = true;
@@ -409,9 +434,10 @@
             // btnLowTaper
             // 
             this.btnLowTaper.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnLowTaper.Location = new System.Drawing.Point(1305, 758);
+            this.btnLowTaper.Location = new System.Drawing.Point(935, 531);
+            this.btnLowTaper.Margin = new System.Windows.Forms.Padding(2);
             this.btnLowTaper.Name = "btnLowTaper";
-            this.btnLowTaper.Size = new System.Drawing.Size(75, 34);
+            this.btnLowTaper.Size = new System.Drawing.Size(56, 28);
             this.btnLowTaper.TabIndex = 49;
             this.btnLowTaper.Text = "Agendar";
             this.btnLowTaper.UseVisualStyleBackColor = true;
@@ -420,9 +446,10 @@
             // btnHigh
             // 
             this.btnHigh.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnHigh.Location = new System.Drawing.Point(1305, 542);
+            this.btnHigh.Location = new System.Drawing.Point(935, 355);
+            this.btnHigh.Margin = new System.Windows.Forms.Padding(2);
             this.btnHigh.Name = "btnHigh";
-            this.btnHigh.Size = new System.Drawing.Size(75, 32);
+            this.btnHigh.Size = new System.Drawing.Size(56, 26);
             this.btnHigh.TabIndex = 50;
             this.btnHigh.Text = "Agendar";
             this.btnHigh.UseVisualStyleBackColor = true;
@@ -431,9 +458,10 @@
             // btnAmericano
             // 
             this.btnAmericano.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnAmericano.Location = new System.Drawing.Point(232, 767);
+            this.btnAmericano.Location = new System.Drawing.Point(174, 538);
+            this.btnAmericano.Margin = new System.Windows.Forms.Padding(2);
             this.btnAmericano.Name = "btnAmericano";
-            this.btnAmericano.Size = new System.Drawing.Size(75, 34);
+            this.btnAmericano.Size = new System.Drawing.Size(56, 28);
             this.btnAmericano.TabIndex = 51;
             this.btnAmericano.Text = "Agendar";
             this.btnAmericano.UseVisualStyleBackColor = true;
@@ -441,10 +469,11 @@
             // 
             // ScreenCortes
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1408, 756);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1161, 621);
             this.Controls.Add(this.btnAmericano);
             this.Controls.Add(this.btnHigh);
             this.Controls.Add(this.btnLowTaper);
@@ -474,9 +503,10 @@
             this.Controls.Add(this.btnBarbaCorte);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnPerfil);
+            this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ScreenCortes";
             this.Text = "ScreenCortes";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();
 

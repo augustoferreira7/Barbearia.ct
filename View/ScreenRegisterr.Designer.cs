@@ -39,32 +39,35 @@
             // 
             this.txbsenhadenovo.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txbsenhadenovo.BackColor = System.Drawing.Color.White;
-            this.txbsenhadenovo.Location = new System.Drawing.Point(548, 427);
+            this.txbsenhadenovo.Location = new System.Drawing.Point(408, 346);
+            this.txbsenhadenovo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txbsenhadenovo.MaxLength = 20;
             this.txbsenhadenovo.Name = "txbsenhadenovo";
             this.txbsenhadenovo.PasswordChar = '*';
-            this.txbsenhadenovo.Size = new System.Drawing.Size(169, 22);
+            this.txbsenhadenovo.Size = new System.Drawing.Size(128, 20);
             this.txbsenhadenovo.TabIndex = 15;
             // 
             // txbsenha
             // 
             this.txbsenha.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txbsenha.BackColor = System.Drawing.Color.White;
-            this.txbsenha.Location = new System.Drawing.Point(548, 351);
+            this.txbsenha.Location = new System.Drawing.Point(408, 283);
+            this.txbsenha.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txbsenha.MaxLength = 20;
             this.txbsenha.Name = "txbsenha";
             this.txbsenha.PasswordChar = '*';
-            this.txbsenha.Size = new System.Drawing.Size(169, 22);
+            this.txbsenha.Size = new System.Drawing.Size(128, 20);
             this.txbsenha.TabIndex = 16;
             // 
             // txb_nomeusuario
             // 
             this.txb_nomeusuario.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txb_nomeusuario.BackColor = System.Drawing.Color.White;
-            this.txb_nomeusuario.Location = new System.Drawing.Point(548, 273);
+            this.txb_nomeusuario.Location = new System.Drawing.Point(408, 222);
+            this.txb_nomeusuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txb_nomeusuario.MaxLength = 20;
             this.txb_nomeusuario.Name = "txb_nomeusuario";
-            this.txb_nomeusuario.Size = new System.Drawing.Size(169, 22);
+            this.txb_nomeusuario.Size = new System.Drawing.Size(128, 20);
             this.txb_nomeusuario.TabIndex = 14;
             this.txb_nomeusuario.Tag = "";
             this.txb_nomeusuario.TextChanged += new System.EventHandler(this.txb_nomeusuario_TextChanged);
@@ -73,9 +76,10 @@
             // 
             this.btnEntrar.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnEntrar.BackColor = System.Drawing.Color.Transparent;
-            this.btnEntrar.Location = new System.Drawing.Point(676, 488);
+            this.btnEntrar.Location = new System.Drawing.Point(507, 396);
+            this.btnEntrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnEntrar.Name = "btnEntrar";
-            this.btnEntrar.Size = new System.Drawing.Size(90, 29);
+            this.btnEntrar.Size = new System.Drawing.Size(68, 24);
             this.btnEntrar.TabIndex = 17;
             this.btnEntrar.Text = "Entrar";
             this.btnEntrar.UseVisualStyleBackColor = false;
@@ -83,16 +87,17 @@
             // 
             // ScreenRegisterr
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1182, 628);
+            this.ClientSize = new System.Drawing.Size(886, 510);
             this.Controls.Add(this.btnEntrar);
             this.Controls.Add(this.txb_nomeusuario);
             this.Controls.Add(this.txbsenhadenovo);
             this.Controls.Add(this.txbsenha);
             this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "ScreenRegisterr";
             this.Text = "ScreenRegisterr";
             this.ResumeLayout(false);

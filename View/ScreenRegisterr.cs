@@ -19,6 +19,7 @@ namespace Barbearia
 
         private void btnEntrar_Click(object sender, EventArgs e)
         {
+           
             ScreenPrincipal tela_Principal = new ScreenPrincipal();
             this.Visible = false;
             tela_Principal.ShowDialog();
