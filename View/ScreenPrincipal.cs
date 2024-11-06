@@ -42,7 +42,7 @@ namespace Barbearia
 
         private void button3_Click(object sender, EventArgs e)
         {
-            ScreenAgendamento tela_Agendamento = new ScreenAgendamento();
+            ScreenBooking tela_Agendamento = new ScreenBooking();
 
             this.Visible = false;
 
@@ -51,7 +51,7 @@ namespace Barbearia
 
         private void button2_Click(object sender, EventArgs e)
         {
-            ScreenAgendamento tela_Agendamento = new ScreenAgendamento();
+            ScreenBooking tela_Agendamento = new ScreenBooking();
 
             this.Visible = false;
 
@@ -60,7 +60,7 @@ namespace Barbearia
 
         private void btnPerfil_Click(object sender, EventArgs e)
         {
-            ScreenRegisterr tela_Registro2 = new ScreenRegisterr();
+            ScreenLogin tela_Registro2 = new ScreenLogin();
 
             this.Visible = false;
 

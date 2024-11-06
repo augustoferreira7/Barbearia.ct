@@ -19,7 +19,7 @@ namespace Barbearia
 
         private void btnMid_Click(object sender, EventArgs e)
         {
-            ScreenAgendamento tela_agendamento1 = new ScreenAgendamento();
+            ScreenBooking tela_agendamento1 = new ScreenBooking();
 
             this.Visible = false;
 
@@ -28,7 +28,7 @@ namespace Barbearia
 
         private void btnLow_Click(object sender, EventArgs e)
         {
-            ScreenAgendamento tela_agendamento2 = new ScreenAgendamento();
+            ScreenBooking tela_agendamento2 = new ScreenBooking();
 
             this.Visible = false;
 
@@ -37,7 +37,7 @@ namespace Barbearia
 
         private void btnBurst_Click(object sender, EventArgs e)
         {
-            ScreenAgendamento tela_agendamento3 = new ScreenAgendamento();
+            ScreenBooking tela_agendamento3 = new ScreenBooking();
 
             this.Visible = false;
 
@@ -46,7 +46,7 @@ namespace Barbearia
 
         private void btnAmericano_Click(object sender, EventArgs e)
         {
-            ScreenAgendamento tela_agendamento4 = new ScreenAgendamento();
+            ScreenBooking tela_agendamento4 = new ScreenBooking();
 
             this.Visible = false;
 
@@ -55,7 +55,7 @@ namespace Barbearia
 
         private void btnMullet_Click(object sender, EventArgs e)
         {
-            ScreenAgendamento tela_agendamento5 = new ScreenAgendamento();
+            ScreenBooking tela_agendamento5 = new ScreenBooking();
 
             this.Visible = false;
 
@@ -64,7 +64,7 @@ namespace Barbearia
 
         private void btnSamurai_Click(object sender, EventArgs e)
         {
-            ScreenAgendamento tela_agendamento6 = new ScreenAgendamento();
+            ScreenBooking tela_agendamento6 = new ScreenBooking();
 
             this.Visible = false;
 

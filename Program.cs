@@ -16,7 +16,7 @@ namespace Barbearia
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ScreenRegisterr());
+            Application.Run(new ScreenLogin());
         }
     }
 }

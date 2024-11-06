@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Barbearia.Model
 {
-    internal class Usuario
+    internal class User
     {
         
             public int CodCliente { get; set; }
@@ -16,17 +16,22 @@ namespace Barbearia.Model
             public string Password { get; private set; }
 
 
-        public Usuario(int Codcliente, string name, string email, string telephone, string password) : this(name, email, telephone, password)
+        public User(int Codcliente, string name, string email, string telephone, string password) : this(name, email, telephone, password)
         {
             CodCliente = Codcliente;
         }
 
-        public Usuario(string name, string email, string telephone, string password)
+        public User(string name, string email, string telephone, string password)
         {
                 Name = name;
                 Email = email;
                 Telephone = telephone;
                 Password = password;
+        }
+        public User( string email,  string password)
+        {
+            Email = email;
+            Password = password;
         }
     }
 }

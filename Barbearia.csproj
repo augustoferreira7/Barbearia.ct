@@ -47,13 +47,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller\Connection.cs" />
-    <Compile Include="Model\Usuario.cs" />
-    <Compile Include="Model\UsuarioDAO.cs" />
-    <Compile Include="View\ScreenAgendamento.cs">
+    <Compile Include="Model\User.cs" />
+    <Compile Include="Model\UserDAO.cs" />
+    <Compile Include="View\ScreenBooking.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\ScreenAgendamento.Designer.cs">
-      <DependentUpon>ScreenAgendamento.cs</DependentUpon>
+    <Compile Include="View\ScreenBooking.Designer.cs">
+      <DependentUpon>ScreenBooking.cs</DependentUpon>
     </Compile>
     <Compile Include="View\ScreenBarba.cs">
       <SubType>Form</SubType>
@@ -61,11 +61,11 @@
     <Compile Include="View\ScreenBarba.Designer.cs">
       <DependentUpon>ScreenBarba.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\ScreenCadastre.cs">
+    <Compile Include="View\ScreenRegister.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\ScreenCadastre.Designer.cs">
-      <DependentUpon>ScreenCadastre.cs</DependentUpon>
+    <Compile Include="View\ScreenRegister.Designer.cs">
+      <DependentUpon>ScreenRegister.cs</DependentUpon>
     </Compile>
     <Compile Include="View\ScreenCortes.cs">
       <SubType>Form</SubType>
@@ -81,20 +81,20 @@
     <Compile Include="View\ScreenPrincipal.Designer.cs">
       <DependentUpon>ScreenPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\ScreenRegisterr.cs">
+    <Compile Include="View\ScreenLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\ScreenRegisterr.Designer.cs">
-      <DependentUpon>ScreenRegisterr.cs</DependentUpon>
+    <Compile Include="View\ScreenLogin.Designer.cs">
+      <DependentUpon>ScreenLogin.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="View\ScreenAgendamento.resx">
-      <DependentUpon>ScreenAgendamento.cs</DependentUpon>
+    <EmbeddedResource Include="View\ScreenBooking.resx">
+      <DependentUpon>ScreenBooking.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\ScreenBarba.resx">
       <DependentUpon>ScreenBarba.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\ScreenCadastre.resx">
-      <DependentUpon>ScreenCadastre.cs</DependentUpon>
+    <EmbeddedResource Include="View\ScreenRegister.resx">
+      <DependentUpon>ScreenRegister.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\ScreenCortes.resx">
       <DependentUpon>ScreenCortes.cs</DependentUpon>
@@ -112,8 +112,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="View\ScreenRegisterr.resx">
-      <DependentUpon>ScreenRegisterr.cs</DependentUpon>
+    <EmbeddedResource Include="View\ScreenLogin.resx">
+      <DependentUpon>ScreenLogin.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -9,20 +9,20 @@ using System.Threading.Tasks;
 
 namespace Barbearia.Model
 {
-    internal class UsuarioDAO
+    internal class UserDAO
     {
         private Connection Connect { get; set; }
         private SqlCommand Command { get; set; }
         //Sempre o nome da classe
-        public UsuarioDAO()
+        public UserDAO()
         {
             Connect = new Connection();
             Command = new SqlCommand();
         }
-        public void Insert(Usuario prop)
+        public bool Insert(User prop)
         {
             Command.Connection = Connect.ReturnConnection();
-            Command.CommandText = @"INSERT INTO Property VALUES 
+            Command.CommandText = @"INSERT INTO Customer VALUES 
             (@name, @email, @telephone, @password)";
 
             Command.Parameters.AddWithValue("@Name", prop.Name);
@@ -34,7 +34,7 @@ namespace Barbearia.Model
             try
             {
                 //Executa query definida acima.
-                Command.ExecuteNonQuery();
+                return Command.ExecuteNonQuery() == 0 ?false:true;
             }
             catch (Exception err)
             {
@@ -44,23 +44,25 @@ namespace Barbearia.Model
             finally
             {
                 Connect.CloseConnection();
+                
             }
+            
         }
-        public void Atualizar(Usuario usuarioAtualizado)
+        public void Atualizar(User usuarioAtualizado)
         {
             Command.Connection = Connect.ReturnConnection();
-            Command.CommandText = @"UPDATE Usuarios SET 
+            Command.CommandText = @"UPDATE Customer SET 
             Name = @name, 
             Email = @email, 
             Telephone = @tel,  
             Password = @password 
-            WHERE CodCliente = @codcliente";
-          
+            WHERE Cod = @cod";
+
             Command.Parameters.AddWithValue("@name", usuarioAtualizado.Name);
-            Command.Parameters.AddWithValue("@email", usuarioAtualizado.Email);        
+            Command.Parameters.AddWithValue("@email", usuarioAtualizado.Email);
             Command.Parameters.AddWithValue("@telephone", usuarioAtualizado.Telephone);
             Command.Parameters.AddWithValue("@password", usuarioAtualizado.Password);
-            Command.Parameters.AddWithValue("@codcliente", usuarioAtualizado.CodCliente);
+            Command.Parameters.AddWithValue("@cod", usuarioAtualizado.CodCliente);
             try
             {
                 Command.ExecuteNonQuery();
@@ -75,11 +77,11 @@ namespace Barbearia.Model
             }
         }
 
-        public void Excluir(int codCliente)
+        public void Excluir(int cod)
         {
             Command.Connection = Connect.ReturnConnection();
-            Command.CommandText = @"DELETE FROM Usuario WHERE CodCliente = @codcliente";
-            Command.Parameters.AddWithValue("@codcliente", codCliente);
+            Command.CommandText = @"DELETE FROM Customer WHERE Cod = @cod";
+            Command.Parameters.AddWithValue("@cod", cod);
             try
             {
                 Command.ExecuteNonQuery();
@@ -93,13 +95,13 @@ namespace Barbearia.Model
                 Connect.CloseConnection();
             }
         }
-        public List<Usuario> ListAllUsuarios()
+        public List<User> ListAllCustomer()
         {
 
             Command.Connection = Connect.ReturnConnection();
-            Command.CommandText = "SELECT * FROM Usuarios";
+            Command.CommandText = "SELECT * FROM Customer";
 
-            List<Usuario> listUsers = new List<Usuario>(); //Instancio a list com o tamanho padrão.
+            List<User> listUsers = new List<User>(); //Instancio a list com o tamanho padrão.
             try
             {
                 SqlDataReader rd = Command.ExecuteReader();
@@ -107,12 +109,41 @@ namespace Barbearia.Model
                 //Enquanto for possível continuar a leitura das linhas que foram retornadas na consulta, execute.
                 while (rd.Read())
                 {
-                    Usuario user = new Usuario((int)rd["CodCliente"],
+                    User user = new User((int)rd["Cod"],
                         (string)rd["Name"], (string)rd["Email"],
                         (string)rd["Telephone"], (string)rd["Password"]);
                     listUsers.Add(user);
                 }
                 rd.Close();
+            }
+            catch (Exception err)
+            {
+                throw new Exception("Erro: Problemas ao realizar leitura de Customer no banco.\n" + err.Message);
+            }
+            finally
+            {
+                Connect.CloseConnection();
+            }
+
+            return listUsers;
+        }
+        public bool TestLogin(User user)
+        {
+
+            Command.Connection = Connect.ReturnConnection();
+            Command.CommandText = "SELECT * FROM Customer WHERE Password = @password AND Email = @email";
+            Command.Parameters.AddWithValue("@password", user.Password);
+            Command.Parameters.AddWithValue("@email", user.Email);
+          
+            try
+            {
+                SqlDataReader rd = Command.ExecuteReader();
+                if(rd.HasRows)
+                {
+                    rd.Close();
+                    return true;
+                }               
+                
             }
             catch (Exception err)
             {
@@ -123,7 +154,7 @@ namespace Barbearia.Model
                 Connect.CloseConnection();
             }
 
-            return listUsers;
+           return false;
         }
     }
 }

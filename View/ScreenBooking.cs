@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace Barbearia
 {
-    public partial class ScreenAgendamento : Form
+    public partial class ScreenBooking : Form
     {
-        public ScreenAgendamento()
+        public ScreenBooking()
         {
             InitializeComponent();
         }
 
         private void btnPerfil_Click(object sender, EventArgs e)
         {
-            ScreenRegisterr tela_Registro = new ScreenRegisterr();
+            ScreenLogin tela_Registro = new ScreenLogin();
 
             this.Visible = false;
 

@@ -1,6 +1,6 @@
 ﻿namespace Barbearia
 {
-    partial class ScreenAgendamento
+    partial class ScreenBooking
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ScreenAgendamento));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ScreenBooking));
             this.btnPerfil = new System.Windows.Forms.Button();
             this.btnCabelo = new System.Windows.Forms.Button();
             this.btnBarba = new System.Windows.Forms.Button();
