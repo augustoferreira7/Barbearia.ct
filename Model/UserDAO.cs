@@ -156,5 +156,15 @@ namespace Barbearia.Model
 
            return false;
         }
+
+        internal void Update(User user)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal void Delete(int codCliente)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

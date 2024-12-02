@@ -50,10 +50,10 @@
             this.btnBarba.BackColor = System.Drawing.Color.Black;
             this.btnBarba.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBarba.ForeColor = System.Drawing.Color.White;
-            this.btnBarba.Location = new System.Drawing.Point(19, 344);
-            this.btnBarba.Margin = new System.Windows.Forms.Padding(2);
+            this.btnBarba.Location = new System.Drawing.Point(25, 423);
+            this.btnBarba.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnBarba.Name = "btnBarba";
-            this.btnBarba.Size = new System.Drawing.Size(68, 40);
+            this.btnBarba.Size = new System.Drawing.Size(91, 49);
             this.btnBarba.TabIndex = 5;
             this.btnBarba.Text = "Barbas";
             this.btnBarba.UseVisualStyleBackColor = false;
@@ -64,10 +64,10 @@
             this.btnCabelo.BackColor = System.Drawing.Color.Black;
             this.btnCabelo.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCabelo.ForeColor = System.Drawing.Color.White;
-            this.btnCabelo.Location = new System.Drawing.Point(19, 283);
-            this.btnCabelo.Margin = new System.Windows.Forms.Padding(2);
+            this.btnCabelo.Location = new System.Drawing.Point(25, 348);
+            this.btnCabelo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCabelo.Name = "btnCabelo";
-            this.btnCabelo.Size = new System.Drawing.Size(68, 36);
+            this.btnCabelo.Size = new System.Drawing.Size(91, 44);
             this.btnCabelo.TabIndex = 2;
             this.btnCabelo.Text = "Cortes";
             this.btnCabelo.UseVisualStyleBackColor = false;
@@ -78,10 +78,9 @@
             this.lblcabelo.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblcabelo.AutoSize = true;
             this.lblcabelo.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcabelo.Location = new System.Drawing.Point(157, 349);
-            this.lblcabelo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblcabelo.Location = new System.Drawing.Point(209, 430);
             this.lblcabelo.Name = "lblcabelo";
-            this.lblcabelo.Size = new System.Drawing.Size(264, 100);
+            this.lblcabelo.Size = new System.Drawing.Size(332, 132);
             this.lblcabelo.TabIndex = 8;
             this.lblcabelo.Text = "venha já fazer o seu cabelo\r\n e trocar de visual!\r\nÉ sempre importante manter \r\ns" +
     "eu estilo renovado";
@@ -91,10 +90,9 @@
             this.lblBarba.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblBarba.AutoSize = true;
             this.lblBarba.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBarba.Location = new System.Drawing.Point(897, 349);
-            this.lblBarba.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblBarba.Location = new System.Drawing.Point(1196, 430);
             this.lblBarba.Name = "lblBarba";
-            this.lblBarba.Size = new System.Drawing.Size(260, 100);
+            this.lblBarba.Size = new System.Drawing.Size(326, 132);
             this.lblBarba.TabIndex = 9;
             this.lblBarba.Text = "Sua barba merece o melhor\r\ntratamento possível Por isso\r\né importante se manter e" +
     "m\r\nótimo estado com ela :)";
@@ -105,10 +103,10 @@
             this.button2.BackColor = System.Drawing.Color.Black;
             this.button2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(991, 483);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Location = new System.Drawing.Point(1321, 594);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(82, 32);
+            this.button2.Size = new System.Drawing.Size(109, 39);
             this.button2.TabIndex = 10;
             this.button2.Text = "ir agendar";
             this.button2.UseVisualStyleBackColor = false;
@@ -120,10 +118,10 @@
             this.button3.BackColor = System.Drawing.Color.Black;
             this.button3.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(236, 483);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
+            this.button3.Location = new System.Drawing.Point(315, 594);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(82, 32);
+            this.button3.Size = new System.Drawing.Size(109, 39);
             this.button3.TabIndex = 11;
             this.button3.Text = "ir agendar";
             this.button3.UseVisualStyleBackColor = false;
@@ -135,10 +133,10 @@
             this.btnPerfil.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPerfil.ForeColor = System.Drawing.Color.White;
             this.btnPerfil.Image = ((System.Drawing.Image)(resources.GetObject("btnPerfil.Image")));
-            this.btnPerfil.Location = new System.Drawing.Point(19, 156);
+            this.btnPerfil.Location = new System.Drawing.Point(25, 192);
             this.btnPerfil.Margin = new System.Windows.Forms.Padding(0);
             this.btnPerfil.Name = "btnPerfil";
-            this.btnPerfil.Size = new System.Drawing.Size(68, 64);
+            this.btnPerfil.Size = new System.Drawing.Size(91, 79);
             this.btnPerfil.TabIndex = 12;
             this.btnPerfil.Text = "Perfil";
             this.btnPerfil.UseVisualStyleBackColor = false;
@@ -150,10 +148,9 @@
             this.lblperfil.BackColor = System.Drawing.Color.Transparent;
             this.lblperfil.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblperfil.ForeColor = System.Drawing.Color.Black;
-            this.lblperfil.Location = new System.Drawing.Point(31, 220);
-            this.lblperfil.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblperfil.Location = new System.Drawing.Point(41, 271);
             this.lblperfil.Name = "lblperfil";
-            this.lblperfil.Size = new System.Drawing.Size(40, 19);
+            this.lblperfil.Size = new System.Drawing.Size(55, 22);
             this.lblperfil.TabIndex = 13;
             this.lblperfil.Text = "Perfil";
             // 
@@ -161,10 +158,10 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(201, 211);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Location = new System.Drawing.Point(268, 260);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(153, 108);
+            this.pictureBox1.Size = new System.Drawing.Size(204, 133);
             this.pictureBox1.TabIndex = 14;
             this.pictureBox1.TabStop = false;
             // 
@@ -172,10 +169,10 @@
             // 
             this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(945, 211);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox3.Location = new System.Drawing.Point(1260, 260);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(150, 108);
+            this.pictureBox3.Size = new System.Drawing.Size(200, 133);
             this.pictureBox3.TabIndex = 16;
             this.pictureBox3.TabStop = false;
             // 
@@ -186,10 +183,9 @@
             this.lblNos.BackColor = System.Drawing.Color.Transparent;
             this.lblNos.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNos.ForeColor = System.Drawing.Color.White;
-            this.lblNos.Location = new System.Drawing.Point(577, 314);
-            this.lblNos.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblNos.Location = new System.Drawing.Point(780, 329);
             this.lblNos.Name = "lblNos";
-            this.lblNos.Size = new System.Drawing.Size(123, 31);
+            this.lblNos.Size = new System.Drawing.Size(144, 37);
             this.lblNos.TabIndex = 17;
             this.lblNos.Text = "Sobre nós";
             this.lblNos.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -201,10 +197,9 @@
             this.lblSobre.BackColor = System.Drawing.Color.Transparent;
             this.lblSobre.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSobre.ForeColor = System.Drawing.Color.White;
-            this.lblSobre.Location = new System.Drawing.Point(472, 383);
-            this.lblSobre.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblSobre.Location = new System.Drawing.Point(640, 414);
             this.lblSobre.Name = "lblSobre";
-            this.lblSobre.Size = new System.Drawing.Size(351, 225);
+            this.lblSobre.Size = new System.Drawing.Size(438, 297);
             this.lblSobre.TabIndex = 18;
             this.lblSobre.Text = resources.GetString("lblSobre.Text");
             this.lblSobre.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -212,12 +207,12 @@
             // 
             // ScreenPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1192, 674);
+            this.ClientSize = new System.Drawing.Size(1589, 724);
             this.Controls.Add(this.lblSobre);
             this.Controls.Add(this.lblNos);
             this.Controls.Add(this.pictureBox3);
@@ -231,7 +226,7 @@
             this.Controls.Add(this.btnBarba);
             this.Controls.Add(this.btnCabelo);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "ScreenPrincipal";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.Text = "ScreenLogin";
