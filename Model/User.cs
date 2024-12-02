@@ -16,9 +16,9 @@ namespace Barbearia.Model
             public string Password { get; private set; }
 
 
-        public User(int Codcliente, string name, string email, string telephone, string password) : this(name, email, telephone, password)
+        public User(int codcliente, string name, string email, string telephone, string password) : this(name, email, telephone, password)
         {
-            CodCliente = Codcliente;
+            CodCliente = codcliente;
         }
 
         public User(string name, string email, string telephone, string password)

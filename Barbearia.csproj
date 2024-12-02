@@ -49,11 +49,11 @@
     <Compile Include="Controller\Connection.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="Model\UserDAO.cs" />
-    <Compile Include="screenadd.cs">
+    <Compile Include="View\Screenadd.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="screenadd.Designer.cs">
-      <DependentUpon>screenadd.cs</DependentUpon>
+    <Compile Include="View\Screenadd.Designer.cs">
+      <DependentUpon>Screenadd.cs</DependentUpon>
     </Compile>
     <Compile Include="View\ScreenBooking.cs">
       <SubType>Form</SubType>
@@ -93,8 +93,8 @@
     <Compile Include="View\ScreenLogin.Designer.cs">
       <DependentUpon>ScreenLogin.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="screenadd.resx">
-      <DependentUpon>screenadd.cs</DependentUpon>
+    <EmbeddedResource Include="View\Screenadd.resx">
+      <DependentUpon>Screenadd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\ScreenBooking.resx">
       <DependentUpon>ScreenBooking.cs</DependentUpon>

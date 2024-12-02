@@ -71,5 +71,25 @@ namespace Barbearia
         {
 
         }
+
+        private void BtnAdd_Click(object sender, EventArgs e)
+        {
+            Screenadd tela_add = new Screenadd();
+
+            this.Visible = false;
+
+            tela_add.ShowDialog();
+
+        }
+
+        private void lblperfil_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblcabelo_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

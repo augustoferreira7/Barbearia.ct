@@ -1,6 +1,6 @@
 ﻿namespace Barbearia
 {
-    partial class screenadd
+    partial class Screenadd
     {
         /// <summary>
         /// Required designer variable.
@@ -29,14 +29,19 @@
         private void InitializeComponent()
         {
             this.pnlNomeAdd = new System.Windows.Forms.Panel();
-            this.PnlPasswordAdd = new System.Windows.Forms.Panel();
-            this.PnlEmailAdd = new System.Windows.Forms.Panel();
-            this.PnlTelephoneAdd = new System.Windows.Forms.Panel();
             this.TxbNomeAdd = new System.Windows.Forms.TextBox();
-            this.TxbEmailAdd = new System.Windows.Forms.TextBox();
-            this.TxbTelephoneAdd = new System.Windows.Forms.TextBox();
+            this.PnlPasswordAdd = new System.Windows.Forms.Panel();
             this.TxbPasswordAdd = new System.Windows.Forms.TextBox();
+            this.PnlEmailAdd = new System.Windows.Forms.Panel();
+            this.TxbEmailAdd = new System.Windows.Forms.TextBox();
+            this.PnlTelephoneAdd = new System.Windows.Forms.Panel();
+            this.TxbTelephoneAdd = new System.Windows.Forms.TextBox();
             this.LtvAdd = new System.Windows.Forms.ListView();
+            this.ChNome = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ChEmail = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ChTelefone = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ChSenha = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ChCodCli = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.BtnInsertAdd = new System.Windows.Forms.Button();
             this.BtnDeleteAdd = new System.Windows.Forms.Button();
             this.BtnUpadeteAdd = new System.Windows.Forms.Button();
@@ -45,14 +50,9 @@
             this.LblEmailAdd = new System.Windows.Forms.Label();
             this.LblTelephoneAdd = new System.Windows.Forms.Label();
             this.LblPasswordAdd = new System.Windows.Forms.Label();
-            this.ChNome = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.ChEmail = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.ChTelefone = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.ChSenha = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.LblCodCli = new System.Windows.Forms.Label();
             this.PnlCodCli = new System.Windows.Forms.Panel();
             this.TxbCodCli = new System.Windows.Forms.TextBox();
-            this.ChCodCli = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.pnlNomeAdd.SuspendLayout();
             this.PnlPasswordAdd.SuspendLayout();
             this.PnlEmailAdd.SuspendLayout();
@@ -63,62 +63,70 @@
             // pnlNomeAdd
             // 
             this.pnlNomeAdd.Controls.Add(this.TxbNomeAdd);
-            this.pnlNomeAdd.Location = new System.Drawing.Point(596, 126);
+            this.pnlNomeAdd.Location = new System.Drawing.Point(447, 102);
+            this.pnlNomeAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pnlNomeAdd.Name = "pnlNomeAdd";
-            this.pnlNomeAdd.Size = new System.Drawing.Size(370, 58);
+            this.pnlNomeAdd.Size = new System.Drawing.Size(278, 47);
             this.pnlNomeAdd.TabIndex = 0;
+            // 
+            // TxbNomeAdd
+            // 
+            this.TxbNomeAdd.Location = new System.Drawing.Point(0, 29);
+            this.TxbNomeAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxbNomeAdd.Name = "TxbNomeAdd";
+            this.TxbNomeAdd.Size = new System.Drawing.Size(278, 20);
+            this.TxbNomeAdd.TabIndex = 0;
             // 
             // PnlPasswordAdd
             // 
             this.PnlPasswordAdd.Controls.Add(this.TxbPasswordAdd);
-            this.PnlPasswordAdd.Location = new System.Drawing.Point(1033, 334);
+            this.PnlPasswordAdd.Location = new System.Drawing.Point(775, 271);
+            this.PnlPasswordAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PnlPasswordAdd.Name = "PnlPasswordAdd";
-            this.PnlPasswordAdd.Size = new System.Drawing.Size(370, 60);
+            this.PnlPasswordAdd.Size = new System.Drawing.Size(278, 49);
             this.PnlPasswordAdd.TabIndex = 1;
+            // 
+            // TxbPasswordAdd
+            // 
+            this.TxbPasswordAdd.Location = new System.Drawing.Point(2, 31);
+            this.TxbPasswordAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxbPasswordAdd.Name = "TxbPasswordAdd";
+            this.TxbPasswordAdd.Size = new System.Drawing.Size(278, 20);
+            this.TxbPasswordAdd.TabIndex = 1;
             // 
             // PnlEmailAdd
             // 
             this.PnlEmailAdd.Controls.Add(this.TxbEmailAdd);
-            this.PnlEmailAdd.Location = new System.Drawing.Point(1033, 126);
+            this.PnlEmailAdd.Location = new System.Drawing.Point(775, 102);
+            this.PnlEmailAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PnlEmailAdd.Name = "PnlEmailAdd";
-            this.PnlEmailAdd.Size = new System.Drawing.Size(370, 58);
+            this.PnlEmailAdd.Size = new System.Drawing.Size(278, 47);
             this.PnlEmailAdd.TabIndex = 1;
+            // 
+            // TxbEmailAdd
+            // 
+            this.TxbEmailAdd.Location = new System.Drawing.Point(2, 27);
+            this.TxbEmailAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxbEmailAdd.Name = "TxbEmailAdd";
+            this.TxbEmailAdd.Size = new System.Drawing.Size(278, 20);
+            this.TxbEmailAdd.TabIndex = 1;
             // 
             // PnlTelephoneAdd
             // 
             this.PnlTelephoneAdd.Controls.Add(this.TxbTelephoneAdd);
-            this.PnlTelephoneAdd.Location = new System.Drawing.Point(596, 334);
+            this.PnlTelephoneAdd.Location = new System.Drawing.Point(447, 271);
+            this.PnlTelephoneAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PnlTelephoneAdd.Name = "PnlTelephoneAdd";
-            this.PnlTelephoneAdd.Size = new System.Drawing.Size(370, 63);
+            this.PnlTelephoneAdd.Size = new System.Drawing.Size(278, 51);
             this.PnlTelephoneAdd.TabIndex = 1;
-            // 
-            // TxbNomeAdd
-            // 
-            this.TxbNomeAdd.Location = new System.Drawing.Point(0, 36);
-            this.TxbNomeAdd.Name = "TxbNomeAdd";
-            this.TxbNomeAdd.Size = new System.Drawing.Size(370, 22);
-            this.TxbNomeAdd.TabIndex = 0;
-            // 
-            // TxbEmailAdd
-            // 
-            this.TxbEmailAdd.Location = new System.Drawing.Point(3, 33);
-            this.TxbEmailAdd.Name = "TxbEmailAdd";
-            this.TxbEmailAdd.Size = new System.Drawing.Size(370, 22);
-            this.TxbEmailAdd.TabIndex = 1;
             // 
             // TxbTelephoneAdd
             // 
-            this.TxbTelephoneAdd.Location = new System.Drawing.Point(0, 38);
+            this.TxbTelephoneAdd.Location = new System.Drawing.Point(0, 31);
+            this.TxbTelephoneAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TxbTelephoneAdd.Name = "TxbTelephoneAdd";
-            this.TxbTelephoneAdd.Size = new System.Drawing.Size(370, 22);
+            this.TxbTelephoneAdd.Size = new System.Drawing.Size(278, 20);
             this.TxbTelephoneAdd.TabIndex = 2;
-            // 
-            // TxbPasswordAdd
-            // 
-            this.TxbPasswordAdd.Location = new System.Drawing.Point(3, 38);
-            this.TxbPasswordAdd.Name = "TxbPasswordAdd";
-            this.TxbPasswordAdd.Size = new System.Drawing.Size(370, 22);
-            this.TxbPasswordAdd.TabIndex = 1;
             // 
             // LtvAdd
             // 
@@ -129,88 +137,14 @@
             this.ChSenha,
             this.ChCodCli});
             this.LtvAdd.HideSelection = false;
-            this.LtvAdd.Location = new System.Drawing.Point(42, 467);
+            this.LtvAdd.Location = new System.Drawing.Point(32, 379);
+            this.LtvAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.LtvAdd.Name = "LtvAdd";
-            this.LtvAdd.Size = new System.Drawing.Size(524, 183);
+            this.LtvAdd.Size = new System.Drawing.Size(394, 149);
             this.LtvAdd.TabIndex = 2;
             this.LtvAdd.UseCompatibleStateImageBehavior = false;
             this.LtvAdd.View = System.Windows.Forms.View.Details;
             this.LtvAdd.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.LtvAdd_MouseDoubleClick);
-            // 
-            // BtnInsertAdd
-            // 
-            this.BtnInsertAdd.Location = new System.Drawing.Point(65, 681);
-            this.BtnInsertAdd.Name = "BtnInsertAdd";
-            this.BtnInsertAdd.Size = new System.Drawing.Size(75, 23);
-            this.BtnInsertAdd.TabIndex = 3;
-            this.BtnInsertAdd.Text = "Insert";
-            this.BtnInsertAdd.UseVisualStyleBackColor = true;
-            this.BtnInsertAdd.Click += new System.EventHandler(this.BtnInsertAdd_Click);
-            // 
-            // BtnDeleteAdd
-            // 
-            this.BtnDeleteAdd.Location = new System.Drawing.Point(196, 681);
-            this.BtnDeleteAdd.Name = "BtnDeleteAdd";
-            this.BtnDeleteAdd.Size = new System.Drawing.Size(75, 23);
-            this.BtnDeleteAdd.TabIndex = 4;
-            this.BtnDeleteAdd.Text = "Deletar";
-            this.BtnDeleteAdd.UseVisualStyleBackColor = true;
-            this.BtnDeleteAdd.Click += new System.EventHandler(this.BtnDeleteAdd_Click);
-            // 
-            // BtnUpadeteAdd
-            // 
-            this.BtnUpadeteAdd.Location = new System.Drawing.Point(341, 681);
-            this.BtnUpadeteAdd.Name = "BtnUpadeteAdd";
-            this.BtnUpadeteAdd.Size = new System.Drawing.Size(75, 23);
-            this.BtnUpadeteAdd.TabIndex = 5;
-            this.BtnUpadeteAdd.Text = "Atualizar";
-            this.BtnUpadeteAdd.UseVisualStyleBackColor = true;
-            this.BtnUpadeteAdd.Click += new System.EventHandler(this.BtnUpadeteAdd_Click);
-            // 
-            // BtnClearAdd
-            // 
-            this.BtnClearAdd.Location = new System.Drawing.Point(491, 681);
-            this.BtnClearAdd.Name = "BtnClearAdd";
-            this.BtnClearAdd.Size = new System.Drawing.Size(75, 23);
-            this.BtnClearAdd.TabIndex = 6;
-            this.BtnClearAdd.Text = "Limpar";
-            this.BtnClearAdd.UseVisualStyleBackColor = true;
-            // 
-            // LblNameAdd
-            // 
-            this.LblNameAdd.AutoSize = true;
-            this.LblNameAdd.Location = new System.Drawing.Point(599, 107);
-            this.LblNameAdd.Name = "LblNameAdd";
-            this.LblNameAdd.Size = new System.Drawing.Size(44, 16);
-            this.LblNameAdd.TabIndex = 7;
-            this.LblNameAdd.Text = "Nome";
-            // 
-            // LblEmailAdd
-            // 
-            this.LblEmailAdd.AutoSize = true;
-            this.LblEmailAdd.Location = new System.Drawing.Point(1033, 107);
-            this.LblEmailAdd.Name = "LblEmailAdd";
-            this.LblEmailAdd.Size = new System.Drawing.Size(41, 16);
-            this.LblEmailAdd.TabIndex = 8;
-            this.LblEmailAdd.Text = "Email";
-            // 
-            // LblTelephoneAdd
-            // 
-            this.LblTelephoneAdd.AutoSize = true;
-            this.LblTelephoneAdd.Location = new System.Drawing.Point(593, 315);
-            this.LblTelephoneAdd.Name = "LblTelephoneAdd";
-            this.LblTelephoneAdd.Size = new System.Drawing.Size(61, 16);
-            this.LblTelephoneAdd.TabIndex = 9;
-            this.LblTelephoneAdd.Text = "Telefone";
-            // 
-            // LblPasswordAdd
-            // 
-            this.LblPasswordAdd.AutoSize = true;
-            this.LblPasswordAdd.Location = new System.Drawing.Point(1033, 315);
-            this.LblPasswordAdd.Name = "LblPasswordAdd";
-            this.LblPasswordAdd.Size = new System.Drawing.Size(46, 16);
-            this.LblPasswordAdd.TabIndex = 10;
-            this.LblPasswordAdd.Text = "Senha";
             // 
             // ChNome
             // 
@@ -231,39 +165,125 @@
             this.ChSenha.Text = "Senha";
             this.ChSenha.Width = 145;
             // 
+            // ChCodCli
+            // 
+            this.ChCodCli.Text = "Código";
+            // 
+            // BtnInsertAdd
+            // 
+            this.BtnInsertAdd.Location = new System.Drawing.Point(49, 553);
+            this.BtnInsertAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnInsertAdd.Name = "BtnInsertAdd";
+            this.BtnInsertAdd.Size = new System.Drawing.Size(56, 19);
+            this.BtnInsertAdd.TabIndex = 3;
+            this.BtnInsertAdd.Text = "Insert";
+            this.BtnInsertAdd.UseVisualStyleBackColor = true;
+            this.BtnInsertAdd.Click += new System.EventHandler(this.BtnInsertAdd_Click);
+            // 
+            // BtnDeleteAdd
+            // 
+            this.BtnDeleteAdd.Location = new System.Drawing.Point(147, 553);
+            this.BtnDeleteAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnDeleteAdd.Name = "BtnDeleteAdd";
+            this.BtnDeleteAdd.Size = new System.Drawing.Size(56, 19);
+            this.BtnDeleteAdd.TabIndex = 4;
+            this.BtnDeleteAdd.Text = "Deletar";
+            this.BtnDeleteAdd.UseVisualStyleBackColor = true;
+            this.BtnDeleteAdd.Click += new System.EventHandler(this.BtnDeleteAdd_Click);
+            // 
+            // BtnUpadeteAdd
+            // 
+            this.BtnUpadeteAdd.Location = new System.Drawing.Point(256, 553);
+            this.BtnUpadeteAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnUpadeteAdd.Name = "BtnUpadeteAdd";
+            this.BtnUpadeteAdd.Size = new System.Drawing.Size(56, 19);
+            this.BtnUpadeteAdd.TabIndex = 5;
+            this.BtnUpadeteAdd.Text = "Atualizar";
+            this.BtnUpadeteAdd.UseVisualStyleBackColor = true;
+            this.BtnUpadeteAdd.Click += new System.EventHandler(this.BtnUpadeteAdd_Click);
+            // 
+            // BtnClearAdd
+            // 
+            this.BtnClearAdd.Location = new System.Drawing.Point(368, 553);
+            this.BtnClearAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnClearAdd.Name = "BtnClearAdd";
+            this.BtnClearAdd.Size = new System.Drawing.Size(56, 19);
+            this.BtnClearAdd.TabIndex = 6;
+            this.BtnClearAdd.Text = "Limpar";
+            this.BtnClearAdd.UseVisualStyleBackColor = true;
+            // 
+            // LblNameAdd
+            // 
+            this.LblNameAdd.AutoSize = true;
+            this.LblNameAdd.Location = new System.Drawing.Point(449, 87);
+            this.LblNameAdd.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LblNameAdd.Name = "LblNameAdd";
+            this.LblNameAdd.Size = new System.Drawing.Size(35, 13);
+            this.LblNameAdd.TabIndex = 7;
+            this.LblNameAdd.Text = "Nome";
+            // 
+            // LblEmailAdd
+            // 
+            this.LblEmailAdd.AutoSize = true;
+            this.LblEmailAdd.Location = new System.Drawing.Point(775, 87);
+            this.LblEmailAdd.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LblEmailAdd.Name = "LblEmailAdd";
+            this.LblEmailAdd.Size = new System.Drawing.Size(32, 13);
+            this.LblEmailAdd.TabIndex = 8;
+            this.LblEmailAdd.Text = "Email";
+            // 
+            // LblTelephoneAdd
+            // 
+            this.LblTelephoneAdd.AutoSize = true;
+            this.LblTelephoneAdd.Location = new System.Drawing.Point(445, 256);
+            this.LblTelephoneAdd.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LblTelephoneAdd.Name = "LblTelephoneAdd";
+            this.LblTelephoneAdd.Size = new System.Drawing.Size(49, 13);
+            this.LblTelephoneAdd.TabIndex = 9;
+            this.LblTelephoneAdd.Text = "Telefone";
+            // 
+            // LblPasswordAdd
+            // 
+            this.LblPasswordAdd.AutoSize = true;
+            this.LblPasswordAdd.Location = new System.Drawing.Point(775, 256);
+            this.LblPasswordAdd.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LblPasswordAdd.Name = "LblPasswordAdd";
+            this.LblPasswordAdd.Size = new System.Drawing.Size(38, 13);
+            this.LblPasswordAdd.TabIndex = 10;
+            this.LblPasswordAdd.Text = "Senha";
+            // 
             // LblCodCli
             // 
             this.LblCodCli.AutoSize = true;
-            this.LblCodCli.Location = new System.Drawing.Point(96, 107);
+            this.LblCodCli.Location = new System.Drawing.Point(72, 87);
+            this.LblCodCli.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LblCodCli.Name = "LblCodCli";
-            this.LblCodCli.Size = new System.Drawing.Size(51, 16);
+            this.LblCodCli.Size = new System.Drawing.Size(40, 13);
             this.LblCodCli.TabIndex = 12;
             this.LblCodCli.Text = "Código";
             // 
             // PnlCodCli
             // 
             this.PnlCodCli.Controls.Add(this.TxbCodCli);
-            this.PnlCodCli.Location = new System.Drawing.Point(93, 126);
+            this.PnlCodCli.Location = new System.Drawing.Point(70, 102);
+            this.PnlCodCli.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PnlCodCli.Name = "PnlCodCli";
-            this.PnlCodCli.Size = new System.Drawing.Size(370, 58);
+            this.PnlCodCli.Size = new System.Drawing.Size(278, 47);
             this.PnlCodCli.TabIndex = 11;
             // 
             // TxbCodCli
             // 
-            this.TxbCodCli.Location = new System.Drawing.Point(0, 36);
+            this.TxbCodCli.Location = new System.Drawing.Point(0, 29);
+            this.TxbCodCli.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TxbCodCli.Name = "TxbCodCli";
-            this.TxbCodCli.Size = new System.Drawing.Size(370, 22);
+            this.TxbCodCli.Size = new System.Drawing.Size(278, 20);
             this.TxbCodCli.TabIndex = 0;
-            // 
-            // ChCodCli
-            // 
-            this.ChCodCli.Text = "Código";
             // 
             // screenadd
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1477, 798);
+            this.ClientSize = new System.Drawing.Size(1108, 648);
             this.Controls.Add(this.LblCodCli);
             this.Controls.Add(this.PnlCodCli);
             this.Controls.Add(this.LblPasswordAdd);
@@ -279,8 +299,10 @@
             this.Controls.Add(this.PnlEmailAdd);
             this.Controls.Add(this.PnlTelephoneAdd);
             this.Controls.Add(this.pnlNomeAdd);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "screenadd";
             this.Text = "screenadd";
+            this.Load += new System.EventHandler(this.screenadd_Load_1);
             this.pnlNomeAdd.ResumeLayout(false);
             this.pnlNomeAdd.PerformLayout();
             this.PnlPasswordAdd.ResumeLayout(false);

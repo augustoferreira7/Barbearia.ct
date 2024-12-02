@@ -11,11 +11,11 @@ using System.Windows.Forms;
 
 namespace Barbearia
 {
-    public partial class screenadd : Form
+    public partial class Screenadd : Form
     {
         private int CodCliente = -1;
 
-        public screenadd()
+        public Screenadd()
         {
             InitializeComponent();
         }
@@ -31,6 +31,7 @@ namespace Barbearia
             BtnDeleteAdd.Visible = false;
             BtnUpadeteAdd.Visible = false;
         }
+       
 
         private void UpdateListView()
         {
@@ -53,7 +54,29 @@ namespace Barbearia
             }
         }
 
-        private void screenadd_Load(object sender, EventArgs e)
+        private bool ValidateFields()
+        {
+            if (TxbPasswordAdd.Text.Length == 0)
+            {
+                MessageBox.Show("Os campos CRECI e Senha são obrigatórios", "ATENÇÃO",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+            return true;
+        }
+        //private bool ValidatePasswordFields()
+        //{
+        //    if (string.IsNullOrWhiteSpace(TxbPasswordAdd.Text))
+        //    {
+        //        MessageBox.Show("A senha é obrigatória.", "Erro de Validação", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        //        return false;
+        //    }
+
+        //    return true;
+        //}
+
+
+        private void Screenadd_Load(object sender, EventArgs e)
         {
             UpdateListView();
         }
@@ -82,13 +105,13 @@ namespace Barbearia
 
         private void BtnInsertAdd_Click(object sender, EventArgs e)
         {
-            int CodCli = int.Parse(TxbCodCli.Text);
+            //int CodCli = int.Parse(TxbCodCli.Text);
             string Name = TxbNomeAdd.Text;
             string Email = TxbEmailAdd.Text;
             string Telefone = TxbTelephoneAdd.Text;
             string Password = TxbPasswordAdd.Text;
 
-            User user = new User(CodCli,Name, Email, Telefone, Password);
+            User user = new User(Name, Email, Telefone, Password);
 
             UserDAO userDAO = new UserDAO();
 
@@ -116,7 +139,7 @@ namespace Barbearia
                 TxbEmailAdd.Text = LtvAdd.Items[index].SubItems[1].Text;
                 TxbTelephoneAdd.Text = LtvAdd.Items[index].SubItems[2].Text;
                 TxbPasswordAdd.Text = LtvAdd.Items[index].SubItems[3].Text;
-                TxbCodCli = int.Parse(LtvAdd.Items[index].SubItems[4].Text;
+                TxbCodCli.Text = (LtvAdd.Items[index].SubItems[4].Text);
 
                 BtnDeleteAdd.Visible = true;
                 BtnUpadeteAdd.Visible = true;
@@ -152,9 +175,11 @@ namespace Barbearia
             }
         }
 
-        private bool ValidateFields()
+       
+
+        private void screenadd_Load_1(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            UpdateListView();
         }
     }
 }

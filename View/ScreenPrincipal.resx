@@ -218,7 +218,7 @@
         EW0l2Ii2EmxEWwk2oq0EG9FWgo1oK8FGtJVgI9pKsBFtFRD9P1TbisP6VVR3AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="PcbCabelo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAM0AAACFCAYAAAD4t3xoAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         vAAADrwBlbxySQAA/7JJREFUeF60vQV4VmmarV092lXEcAsB4u4JCSSEAElwd7fg7u4kgbi7u7s7wSFA
@@ -1394,7 +1394,7 @@
         AElFTkSuQmCC
 </value>
   </data>
-  <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="PcbBarba.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAMgAAACFCAYAAAAenrcsAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         DAAACwwBP0AiyAAA9DtJREFUeF7E/fWTHNm6JIpqN6jFxVyVRVmUxczMzMwoFQpKKkklZmZmZmaGlrpb
@@ -2456,7 +2456,7 @@ confiante.</value>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABg4AAANoCAYAAAAYuBFIAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vgAADr4B6kKxwAAA8WhJREFUeF7snQdUFNn29b//GxXMknMOkiUoKIIRwQAqKphBUUQBEVABUcw5j+OY
+        vQAADr0BR/uQrQAA8WhJREFUeF7snQdUFNn29b//GxXMknMOkiUoKIIRwQAqKphBUUQBEVABUcw5j+OY
         xzxOepNzzjnnnHMeJ8d3vtqnKaZpCqiGBhFPrfVbjnaFW9W3etY6+569/981l2yg9sDJ7SvpxNYqzc8E
         QRAEQRAEQRAEQRAEQRCE+jm+tYqW58+m0pxptH1ZEZ3evor//crd6+jYlhV0aH05ndy2kq7es77OsUL7
         o90IBzuUybyueB5dvmO15ueCIAiCIAiCIAiCIAiCIAhCXa66eB0tmjWZvNxcqMNFF5GrkwOlJw+m7csW
