@@ -13,7 +13,7 @@ namespace Barbearia
 {
     public partial class Screenadd : Form
     {
-        private int CodCliente = -1;
+        private int cod = -1;
 
         public Screenadd()
         {
@@ -22,11 +22,12 @@ namespace Barbearia
 
         private void ClearFields()
         {
-            TxbCodCli.Clear();  
+              
             TxbNomeAdd.Clear();
             TxbEmailAdd.Clear();
             TxbTelephoneAdd.Clear();
             TxbPasswordAdd.Clear();
+            TxbCodCli.Clear();
 
             BtnDeleteAdd.Visible = false;
             BtnUpadeteAdd.Visible = false;
@@ -54,32 +55,29 @@ namespace Barbearia
             }
         }
 
-        private bool ValidateFields()
-        {
-            if (TxbPasswordAdd.Text.Length == 0)
-            {
-                MessageBox.Show("Os campos CRECI e Senha são obrigatórios", "ATENÇÃO",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return false;
-            }
-            return true;
-        }
-        //private bool ValidatePasswordFields()
+        //private bool ValidateFields()
         //{
-        //    if (string.IsNullOrWhiteSpace(TxbPasswordAdd.Text))
+        //    if (TxbPasswordAdd.Text.Length == 0)
         //    {
-        //        MessageBox.Show("A senha é obrigatória.", "Erro de Validação", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        //        MessageBox.Show("Os campos CRECI e Senha são obrigatórios", "ATENÇÃO",
+        //            MessageBoxButtons.OK, MessageBoxIcon.Error);
         //        return false;
         //    }
-
         //    return true;
         //}
-
-
-        private void Screenadd_Load(object sender, EventArgs e)
+        private bool ValidatePasswordFields()
         {
-            UpdateListView();
+            if (string.IsNullOrWhiteSpace(TxbPasswordAdd.Text))
+            {
+                MessageBox.Show("A senha é obrigatória.", "Erro de Validação", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
+            return true;
         }
+
+
+       
 
         private void BtnDeleteAdd_Click(object sender, EventArgs e)
         {
@@ -92,7 +90,7 @@ namespace Barbearia
             {
                 try
                 {
-                    userDao.Delete(CodCliente);
+                    userDao.Delete(int.Parse(TxbCodCli.Text));
                 }
                 catch (Exception err)
                 {
@@ -136,10 +134,10 @@ namespace Barbearia
             {
                 index = LtvAdd.FocusedItem.Index;
                 TxbNomeAdd.Text = LtvAdd.Items[index].SubItems[0].Text;
-                TxbEmailAdd.Text = LtvAdd.Items[index].SubItems[1].Text;
-                TxbTelephoneAdd.Text = LtvAdd.Items[index].SubItems[2].Text;
-                TxbPasswordAdd.Text = LtvAdd.Items[index].SubItems[3].Text;
-                TxbCodCli.Text = (LtvAdd.Items[index].SubItems[4].Text);
+                TxbEmailAdd.Text = LtvAdd.Items[index].SubItems[2].Text;
+                TxbTelephoneAdd.Text = LtvAdd.Items[index].SubItems[3].Text;
+                TxbPasswordAdd.Text = LtvAdd.Items[index].SubItems[4].Text;
+                TxbCodCli.Text = (LtvAdd.Items[index].SubItems[1].Text);
 
                 BtnDeleteAdd.Visible = true;
                 BtnUpadeteAdd.Visible = true;
@@ -153,13 +151,13 @@ namespace Barbearia
 
         private void BtnUpadeteAdd_Click(object sender, EventArgs e)
         {
-            if (ValidateFields())
+            if (ValidatePasswordFields())
             {
                 try
                 {
                     //Capture inputed text from fields.
-                    new UserDAO().Update(new User(
-                       int.Parse(TxbCodCli.Text),
+                    new UserDAO().Atualizar(new User(
+                        int.Parse(TxbCodCli.Text),
                         TxbNomeAdd.Text,
                         TxbEmailAdd.Text,
                         TxbTelephoneAdd.Text,
@@ -180,6 +178,16 @@ namespace Barbearia
         private void screenadd_Load_1(object sender, EventArgs e)
         {
             UpdateListView();
+        }
+
+        private void BtnClearAdd_Click(object sender, EventArgs e)
+        {
+            ClearFields();
+        }
+
+        private void LtvAdd_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

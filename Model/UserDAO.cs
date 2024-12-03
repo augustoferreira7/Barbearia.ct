@@ -46,6 +46,7 @@ namespace Barbearia.Model
                 Connect.CloseConnection();
                 
             }
+           
             
         }
         public void Atualizar(User usuarioAtualizado)
@@ -54,7 +55,7 @@ namespace Barbearia.Model
             Command.CommandText = @"UPDATE Customer SET 
             Name = @name, 
             Email = @email, 
-            Telephone = @tel,  
+            Telephone = @telephone,  
             Password = @password 
             WHERE Cod = @cod";
 
@@ -77,18 +78,40 @@ namespace Barbearia.Model
             }
         }
 
-        public void Excluir(int cod)
+        //public void Excluir( int CodCliente)
+        //{
+            
+        //    Command.Connection = Connect.ReturnConnection();
+        //    Command.CommandText = @"DELETE FROM Customer WHERE Cod = @cod";
+        //    Command.Parameters.AddWithValue("@cod", CodCliente);
+        //    try
+        //    {
+        //        Command.ExecuteNonQuery();
+        //    }
+        //    catch (Exception err)
+        //    {
+        //        throw new Exception("Erro: Problemas ao excluir usuário no banco.\n" + err.Message);
+        //    }
+        //    finally
+        //    {
+        //        Connect.CloseConnection();
+        //    }
+        //}
+
+        public void Delete(int cliCode)
         {
             Command.Connection = Connect.ReturnConnection();
-            Command.CommandText = @"DELETE FROM Customer WHERE Cod = @cod";
-            Command.Parameters.AddWithValue("@cod", cod);
+            Command.CommandText = @"DELETE FROM Customer 
+            WHERE Cod = @cod";
+            Command.Parameters.AddWithValue("@cod", cliCode);
             try
             {
                 Command.ExecuteNonQuery();
             }
             catch (Exception err)
             {
-                throw new Exception("Erro: Problemas ao excluir usuário no banco.\n" + err.Message);
+                throw new Exception("Erro: Problemas ao excluir " +
+                    "cadastro do corretor do banco.\n" + err.Message);
             }
             finally
             {
@@ -162,9 +185,6 @@ namespace Barbearia.Model
             throw new NotImplementedException();
         }
 
-        internal void Delete(int codCliente)
-        {
-            throw new NotImplementedException();
-        }
+       
     }
 }

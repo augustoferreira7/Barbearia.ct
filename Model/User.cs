@@ -14,7 +14,7 @@ namespace Barbearia.Model
             public string Email { get; set; }
             public string Telephone { get; set; }
             public string Password { get; private set; }
-
+        
 
         public User(int codcliente, string name, string email, string telephone, string password) : this(name, email, telephone, password)
         {
