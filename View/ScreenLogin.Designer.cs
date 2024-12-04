@@ -29,24 +29,25 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ScreenLogin));
-            this.txbsenhadenovo = new System.Windows.Forms.TextBox();
-            this.txbPasswordUser = new System.Windows.Forms.TextBox();
             this.txbEmailUser = new System.Windows.Forms.TextBox();
+            this.txbPasswordUser = new System.Windows.Forms.TextBox();
+            this.txbUser = new System.Windows.Forms.TextBox();
             this.btnEntrar = new System.Windows.Forms.Button();
             this.btnRegister = new System.Windows.Forms.Button();
+            this.lblEmailLogin = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // txbsenhadenovo
+            // txbEmailUser
             // 
-            this.txbsenhadenovo.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txbsenhadenovo.BackColor = System.Drawing.Color.White;
-            this.txbsenhadenovo.Location = new System.Drawing.Point(408, 346);
-            this.txbsenhadenovo.Margin = new System.Windows.Forms.Padding(2);
-            this.txbsenhadenovo.MaxLength = 20;
-            this.txbsenhadenovo.Name = "txbsenhadenovo";
-            this.txbsenhadenovo.PasswordChar = '*';
-            this.txbsenhadenovo.Size = new System.Drawing.Size(128, 20);
-            this.txbsenhadenovo.TabIndex = 15;
+            this.txbEmailUser.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txbEmailUser.BackColor = System.Drawing.Color.White;
+            this.txbEmailUser.Location = new System.Drawing.Point(408, 346);
+            this.txbEmailUser.Margin = new System.Windows.Forms.Padding(2);
+            this.txbEmailUser.MaxLength = 20;
+            this.txbEmailUser.Name = "txbEmailUser";
+            this.txbEmailUser.PasswordChar = '*';
+            this.txbEmailUser.Size = new System.Drawing.Size(128, 20);
+            this.txbEmailUser.TabIndex = 15;
             // 
             // txbPasswordUser
             // 
@@ -60,18 +61,18 @@
             this.txbPasswordUser.Size = new System.Drawing.Size(128, 20);
             this.txbPasswordUser.TabIndex = 16;
             // 
-            // txbEmailUser
+            // txbUser
             // 
-            this.txbEmailUser.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txbEmailUser.BackColor = System.Drawing.Color.White;
-            this.txbEmailUser.Location = new System.Drawing.Point(408, 222);
-            this.txbEmailUser.Margin = new System.Windows.Forms.Padding(2);
-            this.txbEmailUser.MaxLength = 20;
-            this.txbEmailUser.Name = "txbEmailUser";
-            this.txbEmailUser.Size = new System.Drawing.Size(128, 20);
-            this.txbEmailUser.TabIndex = 14;
-            this.txbEmailUser.Tag = "";
-            this.txbEmailUser.TextChanged += new System.EventHandler(this.txb_nomeusuario_TextChanged);
+            this.txbUser.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txbUser.BackColor = System.Drawing.Color.White;
+            this.txbUser.Location = new System.Drawing.Point(408, 222);
+            this.txbUser.Margin = new System.Windows.Forms.Padding(2);
+            this.txbUser.MaxLength = 20;
+            this.txbUser.Name = "txbUser";
+            this.txbUser.Size = new System.Drawing.Size(128, 20);
+            this.txbUser.TabIndex = 14;
+            this.txbUser.Tag = "";
+            this.txbUser.TextChanged += new System.EventHandler(this.txb_nomeusuario_TextChanged);
             // 
             // btnEntrar
             // 
@@ -99,6 +100,16 @@
             this.btnRegister.UseVisualStyleBackColor = false;
             this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
+            // lblEmailLogin
+            // 
+            this.lblEmailLogin.AutoSize = true;
+            this.lblEmailLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEmailLogin.Location = new System.Drawing.Point(326, 349);
+            this.lblEmailLogin.Name = "lblEmailLogin";
+            this.lblEmailLogin.Size = new System.Drawing.Size(67, 15);
+            this.lblEmailLogin.TabIndex = 19;
+            this.lblEmailLogin.Text = "Seu Email ";
+            // 
             // ScreenLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -106,10 +117,11 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(886, 510);
+            this.Controls.Add(this.lblEmailLogin);
             this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.btnEntrar);
+            this.Controls.Add(this.txbUser);
             this.Controls.Add(this.txbEmailUser);
-            this.Controls.Add(this.txbsenhadenovo);
             this.Controls.Add(this.txbPasswordUser);
             this.DoubleBuffered = true;
             this.Margin = new System.Windows.Forms.Padding(2);
@@ -122,10 +134,11 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txbsenhadenovo;
-        private System.Windows.Forms.TextBox txbPasswordUser;
         private System.Windows.Forms.TextBox txbEmailUser;
+        private System.Windows.Forms.TextBox txbPasswordUser;
+        private System.Windows.Forms.TextBox txbUser;
         private System.Windows.Forms.Button btnEntrar;
         private System.Windows.Forms.Button btnRegister;
+        private System.Windows.Forms.Label lblEmailLogin;
     }
 }
